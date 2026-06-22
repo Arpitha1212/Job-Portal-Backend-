@@ -1,0 +1,986 @@
+{"timestamp":"2026-06-01 13:19:22","level":"INFO","logger":"org.hibernate.validator.internal.util.Version","message":"HV000001: Hibernate Validator 9.0.1.Final"}{"timestamp":"2026-06-01 13:19:22","level":"INFO","logger":"org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor","message":"Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable"}{"timestamp":"2026-06-01 13:19:22","level":"INFO","logger":"org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor","message":"For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'"}{"timestamp":"2026-06-01 13:19:23","level":"INFO","logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","message":"Bootstrapping Spring Data JPA repositories in DEFAULT mode."}{"timestamp":"2026-06-01 13:19:24","level":"INFO","logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","message":"Finished Spring Data repository scanning in 102 ms. Found 4 JPA repository interfaces."}{"timestamp":"2026-06-01 13:19:25","level":"INFO","logger":"org.springframework.boot.tomcat.TomcatWebServer","message":"Tomcat initialized with port 8080 (http)"}{"timestamp":"2026-06-01 13:19:25","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Initializing ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 13:19:25","level":"INFO","logger":"org.apache.catalina.core.StandardService","message":"Starting service [Tomcat]"}{"timestamp":"2026-06-01 13:19:25","level":"INFO","logger":"org.apache.catalina.core.StandardEngine","message":"Starting Servlet engine: [Apache Tomcat/11.0.20]"}{"timestamp":"2026-06-01 13:19:25","level":"INFO","logger":"org.springframework.boot.web.context.servlet.WebApplicationContextInitializer","message":"Root WebApplicationContext: initialization completed in 3078 ms"}{"timestamp":"2026-06-01 13:19:25","level":"INFO","logger":"org.hibernate.orm.jpa","message":"HHH008540: Processing PersistenceUnitInfo [name: default]"}{"timestamp":"2026-06-01 13:19:26","level":"INFO","logger":"org.hibernate.orm.core","message":"HHH000001: Hibernate ORM core version 7.2.7.Final"}{"timestamp":"2026-06-01 13:19:26","level":"INFO","logger":"org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo","message":"No LoadTimeWeaver setup: ignoring JPA class transformer"}{"timestamp":"2026-06-01 13:19:26","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-1 - Starting..."}{"timestamp":"2026-06-01 13:19:27","level":"INFO","logger":"com.zaxxer.hikari.pool.HikariPool","message":"HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4718b774"}{"timestamp":"2026-06-01 13:19:27","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-1 - Start completed."}{"timestamp":"2026-06-01 13:19:27","level":"WARN","logger":"org.hibernate.orm.deprecation","message":"HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)"}{"timestamp":"2026-06-01 13:19:27","level":"INFO","logger":"org.hibernate.orm.connections.pooling","message":"HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/jobportaldb?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.46
+	Default catalog/schema: jobportaldb/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown"}{"timestamp":"2026-06-01 13:19:27","level":"DEBUG","logger":"org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator","message":"No schema actions specified for contributor 'orm'"}{"timestamp":"2026-06-01 13:19:28","level":"INFO","logger":"org.hibernate.orm.core","message":"HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)"}{"timestamp":"2026-06-01 13:19:28","level":"DEBUG","logger":"org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator","message":"No schema actions specified for contributor 'orm'"}{"timestamp":"2026-06-01 13:19:28","level":"DEBUG","logger":"org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator","message":"No schema management actions found"}{"timestamp":"2026-06-01 13:19:28","level":"INFO","logger":"org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean","message":"Initialized JPA EntityManagerFactory for persistence unit 'default'"}{"timestamp":"2026-06-01 13:19:29","level":"INFO","logger":"org.springframework.data.jpa.repository.query.QueryEnhancerFactories","message":"Hibernate is in classpath; If applicable, HQL parser will be used."}{"timestamp":"2026-06-01 13:19:30","level":"WARN","logger":"org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration","message":"spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning"}{"timestamp":"2026-06-01 13:19:30","level":"INFO","logger":"org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer","message":"Global AuthenticationManager configured with AuthenticationProvider bean with name jobPortalUsernamePwdAuthenticationProvider"}{"timestamp":"2026-06-01 13:19:30","level":"DEBUG","logger":"org.springframework.security.web.DefaultSecurityFilterChain","message":"Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, CsrfFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter"}{"timestamp":"2026-06-01 13:19:31","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Starting ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 13:19:31","level":"INFO","logger":"org.springframework.boot.tomcat.TomcatWebServer","message":"Tomcat started on port 8080 (http) with context path '/'"}{"timestamp":"2026-06-01 13:20:01","level":"INFO","logger":"org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]","message":"Initializing Spring DispatcherServlet 'dispatcherServlet'"}{"timestamp":"2026-06-01 13:20:01","level":"INFO","logger":"org.springframework.web.servlet.DispatcherServlet","message":"Initializing Servlet 'dispatcherServlet'"}{"timestamp":"2026-06-01 13:20:01","level":"INFO","logger":"org.springframework.web.servlet.DispatcherServlet","message":"Completed initialization in 6 ms"}{"timestamp":"2026-06-01 13:20:01","level":"DEBUG","logger":"org.springframework.security.web.FilterChainProxy","message":"Securing GET /api/csrf-token/public"}{"timestamp":"2026-06-01 13:20:01","level":"DEBUG","logger":"org.springframework.security.web.FilterChainProxy","message":"Secured GET /api/csrf-token/public"}{"timestamp":"2026-06-01 13:20:01","level":"DEBUG","logger":"org.springframework.security.web.authentication.AnonymousAuthenticationFilter","message":"Set SecurityContextHolder to anonymous SecurityContext"}{"timestamp":"2026-06-01 13:20:19","level":"DEBUG","logger":"org.springframework.security.web.FilterChainProxy","message":"Securing POST /api/auth/login/public"}{"timestamp":"2026-06-01 13:20:19","level":"DEBUG","logger":"org.springframework.security.web.FilterChainProxy","message":"Secured POST /api/auth/login/public"}{"timestamp":"2026-06-01 13:20:20","level":"DEBUG","logger":"org.hibernate.SQL","message":"
+    select
+        jpu1_0.id,
+        jpu1_0.company_id,
+        jpu1_0.created_at,
+        jpu1_0.created_by,
+        jpu1_0.email,
+        jpu1_0.mobile_number,
+        jpu1_0.name,
+        jpu1_0.password_hash,
+        jpu1_0.role_id,
+        jpu1_0.updated_at,
+        jpu1_0.updated_by 
+    from
+        users jpu1_0 
+    where
+        jpu1_0.email=?"}{"timestamp":"2026-06-01 13:20:20","level":"DEBUG","logger":"org.hibernate.SQL","message":"
+    select
+        r1_0.id,
+        r1_0.created_at,
+        r1_0.created_by,
+        r1_0.name,
+        r1_0.updated_at,
+        r1_0.updated_by 
+    from
+        roles r1_0 
+    where
+        r1_0.id=?"}{"timestamp":"2026-06-01 13:20:20","level":"DEBUG","logger":"org.springframework.security.web.authentication.AnonymousAuthenticationFilter","message":"Set SecurityContextHolder to anonymous SecurityContext"}{"timestamp":"2026-06-01 13:20:52","level":"DEBUG","logger":"org.springframework.security.web.FilterChainProxy","message":"Securing GET /api/companies/public"}{"timestamp":"2026-06-01 13:20:52","level":"DEBUG","logger":"org.springframework.security.web.FilterChainProxy","message":"Secured GET /api/companies/public"}{"timestamp":"2026-06-01 13:20:52","level":"DEBUG","logger":"org.hibernate.SQL","message":"
+    select
+        c1_0.id,
+        c1_0.created_at,
+        c1_0.created_by,
+        c1_0.description,
+        c1_0.employees,
+        c1_0.founded,
+        c1_0.industry,
+        c1_0.locations,
+        c1_0.logo,
+        c1_0.name,
+        c1_0.rating,
+        c1_0.size,
+        c1_0.updated_at,
+        c1_0.updated_by,
+        c1_0.website 
+    from
+        companies c1_0"}{"timestamp":"2026-06-01 13:20:52","level":"DEBUG","logger":"org.hibernate.SQL","message":"
+    select
+        j1_0.company_id,
+        j1_0.id,
+        j1_0.application_deadline,
+        j1_0.applications_count,
+        j1_0.benefits,
+        j1_0.category,
+        j1_0.created_at,
+        j1_0.created_by,
+        j1_0.description,
+        j1_0.experience_level,
+        j1_0.featured,
+        j1_0.job_type,
+        j1_0.location,
+        j1_0.posted_date,
+        j1_0.remote,
+        j1_0.requirements,
+        j1_0.salary_currency,
+        j1_0.salary_max,
+        j1_0.salary_min,
+        j1_0.salary_period,
+        j1_0.status,
+        j1_0.title,
+        j1_0.updated_at,
+        j1_0.updated_by,
+        j1_0.urgent,
+        j1_0.work_type 
+    from
+        jobs j1_0 
+    where
+        j1_0.company_id in (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"}{"timestamp":"2026-06-01 13:20:53","level":"DEBUG","logger":"org.springframework.security.web.authentication.AnonymousAuthenticationFilter","message":"Set SecurityContextHolder to anonymous SecurityContext"}{"timestamp":"2026-06-01 13:33:30","level":"WARN","logger":"com.zaxxer.hikari.pool.HikariPool","message":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m32s998ms362µs200ns)."}{"timestamp":"2026-06-01 14:07:25","level":"WARN","logger":"com.zaxxer.hikari.pool.HikariPool","message":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=28m54s803ms863µs100ns)."}{"timestamp":"2026-06-01 14:15:53","level":"INFO","logger":"org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener","message":"Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)"}{"timestamp":"2026-06-01 14:15:53","level":"INFO","logger":"org.springframework.boot.tomcat.GracefulShutdown","message":"Commencing graceful shutdown. Waiting for active requests to complete"}{"timestamp":"2026-06-01 14:15:53","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Pausing ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:15:53","level":"INFO","logger":"org.springframework.boot.tomcat.GracefulShutdown","message":"Graceful shutdown complete"}{"timestamp":"2026-06-01 14:15:53","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Stopping ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:15:53","level":"INFO","logger":"org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean","message":"Closing JPA EntityManagerFactory for persistence unit 'default'"}{"timestamp":"2026-06-01 14:15:53","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-1 - Shutdown initiated..."}{"timestamp":"2026-06-01 14:15:53","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-1 - Shutdown completed."}{"timestamp":"2026-06-01 14:15:54","level":"INFO","logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","message":"Bootstrapping Spring Data JPA repositories in DEFAULT mode."}{"timestamp":"2026-06-01 14:15:54","level":"INFO","logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","message":"Finished Spring Data repository scanning in 77 ms. Found 4 JPA repository interfaces."}{"timestamp":"2026-06-01 14:15:55","level":"INFO","logger":"org.springframework.boot.tomcat.TomcatWebServer","message":"Tomcat initialized with port 8080 (http)"}{"timestamp":"2026-06-01 14:15:55","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Initializing ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:15:55","level":"INFO","logger":"org.apache.catalina.core.StandardService","message":"Starting service [Tomcat]"}{"timestamp":"2026-06-01 14:15:55","level":"INFO","logger":"org.apache.catalina.core.StandardEngine","message":"Starting Servlet engine: [Apache Tomcat/11.0.20]"}{"timestamp":"2026-06-01 14:15:55","level":"INFO","logger":"org.springframework.boot.web.context.servlet.WebApplicationContextInitializer","message":"Root WebApplicationContext: initialization completed in 1357 ms"}{"timestamp":"2026-06-01 14:15:55","level":"INFO","logger":"org.hibernate.orm.jpa","message":"HHH008540: Processing PersistenceUnitInfo [name: default]"}{"timestamp":"2026-06-01 14:15:55","level":"INFO","logger":"org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo","message":"No LoadTimeWeaver setup: ignoring JPA class transformer"}{"timestamp":"2026-06-01 14:15:55","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-2 - Starting..."}{"timestamp":"2026-06-01 14:15:55","level":"INFO","logger":"com.zaxxer.hikari.pool.HikariPool","message":"HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6ca430a1"}{"timestamp":"2026-06-01 14:15:55","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-2 - Start completed."}{"timestamp":"2026-06-01 14:15:55","level":"WARN","logger":"org.hibernate.orm.deprecation","message":"HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)"}{"timestamp":"2026-06-01 14:15:55","level":"INFO","logger":"org.hibernate.orm.connections.pooling","message":"HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/jobportaldb?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.46
+	Default catalog/schema: jobportaldb/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown"}{"timestamp":"2026-06-01 14:15:55","level":"DEBUG","logger":"org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator","message":"No schema actions specified for contributor 'orm'"}{"timestamp":"2026-06-01 14:15:55","level":"INFO","logger":"org.hibernate.orm.core","message":"HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)"}{"timestamp":"2026-06-01 14:15:55","level":"DEBUG","logger":"org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator","message":"No schema actions specified for contributor 'orm'"}{"timestamp":"2026-06-01 14:15:55","level":"DEBUG","logger":"org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator","message":"No schema management actions found"}{"timestamp":"2026-06-01 14:15:55","level":"INFO","logger":"org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean","message":"Initialized JPA EntityManagerFactory for persistence unit 'default'"}{"timestamp":"2026-06-01 14:15:56","level":"WARN","logger":"org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration","message":"spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning"}{"timestamp":"2026-06-01 14:15:56","level":"INFO","logger":"org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer","message":"Global AuthenticationManager configured with AuthenticationProvider bean with name jobPortalUsernamePwdAuthenticationProvider"}{"timestamp":"2026-06-01 14:15:56","level":"DEBUG","logger":"org.springframework.security.web.DefaultSecurityFilterChain","message":"Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, CsrfFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter"}{"timestamp":"2026-06-01 14:15:57","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Starting ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:15:57","level":"INFO","logger":"org.springframework.boot.tomcat.TomcatWebServer","message":"Tomcat started on port 8080 (http) with context path '/'"}{"timestamp":"2026-06-01 14:15:57","level":"INFO","logger":"org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener","message":"Condition evaluation unchanged"}{"timestamp":"2026-06-01 14:15:58","level":"INFO","logger":"org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener","message":"Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)"}{"timestamp":"2026-06-01 14:15:58","level":"INFO","logger":"org.springframework.boot.tomcat.GracefulShutdown","message":"Commencing graceful shutdown. Waiting for active requests to complete"}{"timestamp":"2026-06-01 14:15:58","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Pausing ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:15:58","level":"INFO","logger":"org.springframework.boot.tomcat.GracefulShutdown","message":"Graceful shutdown complete"}{"timestamp":"2026-06-01 14:15:58","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Stopping ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:15:58","level":"INFO","logger":"org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean","message":"Closing JPA EntityManagerFactory for persistence unit 'default'"}{"timestamp":"2026-06-01 14:15:58","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-2 - Shutdown initiated..."}{"timestamp":"2026-06-01 14:15:58","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-2 - Shutdown completed."}{"timestamp":"2026-06-01 14:15:59","level":"INFO","logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","message":"Bootstrapping Spring Data JPA repositories in DEFAULT mode."}{"timestamp":"2026-06-01 14:15:59","level":"INFO","logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","message":"Finished Spring Data repository scanning in 49 ms. Found 4 JPA repository interfaces."}{"timestamp":"2026-06-01 14:15:59","level":"INFO","logger":"org.springframework.boot.tomcat.TomcatWebServer","message":"Tomcat initialized with port 8080 (http)"}{"timestamp":"2026-06-01 14:15:59","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Initializing ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:15:59","level":"INFO","logger":"org.apache.catalina.core.StandardService","message":"Starting service [Tomcat]"}{"timestamp":"2026-06-01 14:15:59","level":"INFO","logger":"org.apache.catalina.core.StandardEngine","message":"Starting Servlet engine: [Apache Tomcat/11.0.20]"}{"timestamp":"2026-06-01 14:15:59","level":"INFO","logger":"org.springframework.boot.web.context.servlet.WebApplicationContextInitializer","message":"Root WebApplicationContext: initialization completed in 824 ms"}{"timestamp":"2026-06-01 14:15:59","level":"INFO","logger":"org.hibernate.orm.jpa","message":"HHH008540: Processing PersistenceUnitInfo [name: default]"}{"timestamp":"2026-06-01 14:15:59","level":"INFO","logger":"org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo","message":"No LoadTimeWeaver setup: ignoring JPA class transformer"}{"timestamp":"2026-06-01 14:15:59","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-3 - Starting..."}{"timestamp":"2026-06-01 14:15:59","level":"INFO","logger":"com.zaxxer.hikari.pool.HikariPool","message":"HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@730ebe35"}{"timestamp":"2026-06-01 14:15:59","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-3 - Start completed."}{"timestamp":"2026-06-01 14:15:59","level":"WARN","logger":"org.hibernate.orm.deprecation","message":"HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)"}{"timestamp":"2026-06-01 14:15:59","level":"INFO","logger":"org.hibernate.orm.connections.pooling","message":"HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/jobportaldb?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.46
+	Default catalog/schema: jobportaldb/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown"}{"timestamp":"2026-06-01 14:15:59","level":"DEBUG","logger":"org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator","message":"No schema actions specified for contributor 'orm'"}{"timestamp":"2026-06-01 14:15:59","level":"INFO","logger":"org.hibernate.orm.core","message":"HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)"}{"timestamp":"2026-06-01 14:15:59","level":"DEBUG","logger":"org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator","message":"No schema actions specified for contributor 'orm'"}{"timestamp":"2026-06-01 14:15:59","level":"DEBUG","logger":"org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator","message":"No schema management actions found"}{"timestamp":"2026-06-01 14:15:59","level":"INFO","logger":"org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean","message":"Initialized JPA EntityManagerFactory for persistence unit 'default'"}{"timestamp":"2026-06-01 14:15:59","level":"WARN","logger":"org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration","message":"spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning"}{"timestamp":"2026-06-01 14:16:00","level":"INFO","logger":"org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer","message":"Global AuthenticationManager configured with AuthenticationProvider bean with name jobPortalUsernamePwdAuthenticationProvider"}{"timestamp":"2026-06-01 14:16:00","level":"DEBUG","logger":"org.springframework.security.web.DefaultSecurityFilterChain","message":"Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, CsrfFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter"}{"timestamp":"2026-06-01 14:16:00","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Starting ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:16:00","level":"INFO","logger":"org.springframework.boot.tomcat.TomcatWebServer","message":"Tomcat started on port 8080 (http) with context path '/'"}{"timestamp":"2026-06-01 14:16:00","level":"INFO","logger":"org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener","message":"Condition evaluation unchanged"}{"timestamp":"2026-06-01 14:16:02","level":"INFO","logger":"org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener","message":"Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)"}{"timestamp":"2026-06-01 14:16:02","level":"INFO","logger":"org.springframework.boot.tomcat.GracefulShutdown","message":"Commencing graceful shutdown. Waiting for active requests to complete"}{"timestamp":"2026-06-01 14:16:02","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Pausing ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:16:02","level":"INFO","logger":"org.springframework.boot.tomcat.GracefulShutdown","message":"Graceful shutdown complete"}{"timestamp":"2026-06-01 14:16:02","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Stopping ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:16:02","level":"INFO","logger":"org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean","message":"Closing JPA EntityManagerFactory for persistence unit 'default'"}{"timestamp":"2026-06-01 14:16:02","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-3 - Shutdown initiated..."}{"timestamp":"2026-06-01 14:16:02","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-3 - Shutdown completed."}{"timestamp":"2026-06-01 14:16:03","level":"INFO","logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","message":"Bootstrapping Spring Data JPA repositories in DEFAULT mode."}{"timestamp":"2026-06-01 14:16:03","level":"INFO","logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","message":"Finished Spring Data repository scanning in 43 ms. Found 4 JPA repository interfaces."}{"timestamp":"2026-06-01 14:16:03","level":"INFO","logger":"org.springframework.boot.tomcat.TomcatWebServer","message":"Tomcat initialized with port 8080 (http)"}{"timestamp":"2026-06-01 14:16:03","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Initializing ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:16:03","level":"INFO","logger":"org.apache.catalina.core.StandardService","message":"Starting service [Tomcat]"}{"timestamp":"2026-06-01 14:16:03","level":"INFO","logger":"org.apache.catalina.core.StandardEngine","message":"Starting Servlet engine: [Apache Tomcat/11.0.20]"}{"timestamp":"2026-06-01 14:16:03","level":"INFO","logger":"org.springframework.boot.web.context.servlet.WebApplicationContextInitializer","message":"Root WebApplicationContext: initialization completed in 639 ms"}{"timestamp":"2026-06-01 14:16:03","level":"INFO","logger":"org.hibernate.orm.jpa","message":"HHH008540: Processing PersistenceUnitInfo [name: default]"}{"timestamp":"2026-06-01 14:16:03","level":"INFO","logger":"org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo","message":"No LoadTimeWeaver setup: ignoring JPA class transformer"}{"timestamp":"2026-06-01 14:16:03","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-4 - Starting..."}{"timestamp":"2026-06-01 14:16:03","level":"INFO","logger":"com.zaxxer.hikari.pool.HikariPool","message":"HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@38f6281a"}{"timestamp":"2026-06-01 14:16:03","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-4 - Start completed."}{"timestamp":"2026-06-01 14:16:03","level":"WARN","logger":"org.hibernate.orm.deprecation","message":"HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)"}{"timestamp":"2026-06-01 14:16:03","level":"INFO","logger":"org.hibernate.orm.connections.pooling","message":"HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/jobportaldb?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.46
+	Default catalog/schema: jobportaldb/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown"}{"timestamp":"2026-06-01 14:16:03","level":"DEBUG","logger":"org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator","message":"No schema actions specified for contributor 'orm'"}{"timestamp":"2026-06-01 14:16:03","level":"INFO","logger":"org.hibernate.orm.core","message":"HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)"}{"timestamp":"2026-06-01 14:16:03","level":"DEBUG","logger":"org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator","message":"No schema actions specified for contributor 'orm'"}{"timestamp":"2026-06-01 14:16:03","level":"DEBUG","logger":"org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator","message":"No schema management actions found"}{"timestamp":"2026-06-01 14:16:03","level":"INFO","logger":"org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean","message":"Initialized JPA EntityManagerFactory for persistence unit 'default'"}{"timestamp":"2026-06-01 14:16:04","level":"WARN","logger":"org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration","message":"spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning"}{"timestamp":"2026-06-01 14:16:04","level":"INFO","logger":"org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer","message":"Global AuthenticationManager configured with AuthenticationProvider bean with name jobPortalUsernamePwdAuthenticationProvider"}{"timestamp":"2026-06-01 14:16:04","level":"DEBUG","logger":"org.springframework.security.web.DefaultSecurityFilterChain","message":"Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, CsrfFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter"}{"timestamp":"2026-06-01 14:16:04","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Starting ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:16:04","level":"INFO","logger":"org.springframework.boot.tomcat.TomcatWebServer","message":"Tomcat started on port 8080 (http) with context path '/'"}{"timestamp":"2026-06-01 14:16:04","level":"INFO","logger":"org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener","message":"Condition evaluation unchanged"}{"timestamp":"2026-06-01 14:16:05","level":"INFO","logger":"org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener","message":"Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)"}{"timestamp":"2026-06-01 14:16:05","level":"INFO","logger":"org.springframework.boot.tomcat.GracefulShutdown","message":"Commencing graceful shutdown. Waiting for active requests to complete"}{"timestamp":"2026-06-01 14:16:05","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Pausing ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:16:05","level":"INFO","logger":"org.springframework.boot.tomcat.GracefulShutdown","message":"Graceful shutdown complete"}{"timestamp":"2026-06-01 14:16:05","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Stopping ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:16:05","level":"INFO","logger":"org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean","message":"Closing JPA EntityManagerFactory for persistence unit 'default'"}{"timestamp":"2026-06-01 14:16:05","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-4 - Shutdown initiated..."}{"timestamp":"2026-06-01 14:16:05","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-4 - Shutdown completed."}{"timestamp":"2026-06-01 14:16:06","level":"INFO","logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","message":"Bootstrapping Spring Data JPA repositories in DEFAULT mode."}{"timestamp":"2026-06-01 14:16:06","level":"INFO","logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","message":"Finished Spring Data repository scanning in 46 ms. Found 4 JPA repository interfaces."}{"timestamp":"2026-06-01 14:16:06","level":"INFO","logger":"org.springframework.boot.tomcat.TomcatWebServer","message":"Tomcat initialized with port 8080 (http)"}{"timestamp":"2026-06-01 14:16:06","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Initializing ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:16:06","level":"INFO","logger":"org.apache.catalina.core.StandardService","message":"Starting service [Tomcat]"}{"timestamp":"2026-06-01 14:16:06","level":"INFO","logger":"org.apache.catalina.core.StandardEngine","message":"Starting Servlet engine: [Apache Tomcat/11.0.20]"}{"timestamp":"2026-06-01 14:16:06","level":"INFO","logger":"org.springframework.boot.web.context.servlet.WebApplicationContextInitializer","message":"Root WebApplicationContext: initialization completed in 786 ms"}{"timestamp":"2026-06-01 14:16:06","level":"INFO","logger":"org.hibernate.orm.jpa","message":"HHH008540: Processing PersistenceUnitInfo [name: default]"}{"timestamp":"2026-06-01 14:16:06","level":"INFO","logger":"org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo","message":"No LoadTimeWeaver setup: ignoring JPA class transformer"}{"timestamp":"2026-06-01 14:16:06","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-5 - Starting..."}{"timestamp":"2026-06-01 14:16:06","level":"INFO","logger":"com.zaxxer.hikari.pool.HikariPool","message":"HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7bb5eda9"}{"timestamp":"2026-06-01 14:16:06","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-5 - Start completed."}{"timestamp":"2026-06-01 14:16:06","level":"WARN","logger":"org.hibernate.orm.deprecation","message":"HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)"}{"timestamp":"2026-06-01 14:16:06","level":"INFO","logger":"org.hibernate.orm.connections.pooling","message":"HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/jobportaldb?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.46
+	Default catalog/schema: jobportaldb/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown"}{"timestamp":"2026-06-01 14:16:07","level":"DEBUG","logger":"org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator","message":"No schema actions specified for contributor 'orm'"}{"timestamp":"2026-06-01 14:16:07","level":"INFO","logger":"org.hibernate.orm.core","message":"HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)"}{"timestamp":"2026-06-01 14:16:07","level":"DEBUG","logger":"org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator","message":"No schema actions specified for contributor 'orm'"}{"timestamp":"2026-06-01 14:16:07","level":"DEBUG","logger":"org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator","message":"No schema management actions found"}{"timestamp":"2026-06-01 14:16:07","level":"INFO","logger":"org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean","message":"Initialized JPA EntityManagerFactory for persistence unit 'default'"}{"timestamp":"2026-06-01 14:16:07","level":"WARN","logger":"org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration","message":"spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning"}{"timestamp":"2026-06-01 14:16:07","level":"INFO","logger":"org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer","message":"Global AuthenticationManager configured with AuthenticationProvider bean with name jobPortalUsernamePwdAuthenticationProvider"}{"timestamp":"2026-06-01 14:16:07","level":"DEBUG","logger":"org.springframework.security.web.DefaultSecurityFilterChain","message":"Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, CsrfFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter"}{"timestamp":"2026-06-01 14:16:07","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Starting ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:16:07","level":"INFO","logger":"org.springframework.boot.tomcat.TomcatWebServer","message":"Tomcat started on port 8080 (http) with context path '/'"}{"timestamp":"2026-06-01 14:16:07","level":"INFO","logger":"org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener","message":"Condition evaluation unchanged"}{"timestamp":"2026-06-01 14:16:10","level":"INFO","logger":"org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener","message":"Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)"}{"timestamp":"2026-06-01 14:16:10","level":"INFO","logger":"org.springframework.boot.tomcat.GracefulShutdown","message":"Commencing graceful shutdown. Waiting for active requests to complete"}{"timestamp":"2026-06-01 14:16:10","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Pausing ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:16:10","level":"INFO","logger":"org.springframework.boot.tomcat.GracefulShutdown","message":"Graceful shutdown complete"}{"timestamp":"2026-06-01 14:16:10","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Stopping ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:16:10","level":"INFO","logger":"org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean","message":"Closing JPA EntityManagerFactory for persistence unit 'default'"}{"timestamp":"2026-06-01 14:16:10","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-5 - Shutdown initiated..."}{"timestamp":"2026-06-01 14:16:10","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-5 - Shutdown completed."}{"timestamp":"2026-06-01 14:16:10","level":"INFO","logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","message":"Bootstrapping Spring Data JPA repositories in DEFAULT mode."}{"timestamp":"2026-06-01 14:16:10","level":"INFO","logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","message":"Finished Spring Data repository scanning in 60 ms. Found 4 JPA repository interfaces."}{"timestamp":"2026-06-01 14:16:11","level":"INFO","logger":"org.springframework.boot.tomcat.TomcatWebServer","message":"Tomcat initialized with port 8080 (http)"}{"timestamp":"2026-06-01 14:16:11","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Initializing ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:16:11","level":"INFO","logger":"org.apache.catalina.core.StandardService","message":"Starting service [Tomcat]"}{"timestamp":"2026-06-01 14:16:11","level":"INFO","logger":"org.apache.catalina.core.StandardEngine","message":"Starting Servlet engine: [Apache Tomcat/11.0.20]"}{"timestamp":"2026-06-01 14:16:11","level":"INFO","logger":"org.springframework.boot.web.context.servlet.WebApplicationContextInitializer","message":"Root WebApplicationContext: initialization completed in 936 ms"}{"timestamp":"2026-06-01 14:16:11","level":"INFO","logger":"org.hibernate.orm.jpa","message":"HHH008540: Processing PersistenceUnitInfo [name: default]"}{"timestamp":"2026-06-01 14:16:11","level":"INFO","logger":"org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo","message":"No LoadTimeWeaver setup: ignoring JPA class transformer"}{"timestamp":"2026-06-01 14:16:11","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-6 - Starting..."}{"timestamp":"2026-06-01 14:16:11","level":"INFO","logger":"com.zaxxer.hikari.pool.HikariPool","message":"HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@390887b5"}{"timestamp":"2026-06-01 14:16:11","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-6 - Start completed."}{"timestamp":"2026-06-01 14:16:11","level":"WARN","logger":"org.hibernate.orm.deprecation","message":"HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)"}{"timestamp":"2026-06-01 14:16:11","level":"INFO","logger":"org.hibernate.orm.connections.pooling","message":"HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/jobportaldb?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.46
+	Default catalog/schema: jobportaldb/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown"}{"timestamp":"2026-06-01 14:16:11","level":"DEBUG","logger":"org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator","message":"No schema actions specified for contributor 'orm'"}{"timestamp":"2026-06-01 14:16:11","level":"INFO","logger":"org.hibernate.orm.core","message":"HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)"}{"timestamp":"2026-06-01 14:16:11","level":"DEBUG","logger":"org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator","message":"No schema actions specified for contributor 'orm'"}{"timestamp":"2026-06-01 14:16:11","level":"DEBUG","logger":"org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator","message":"No schema management actions found"}{"timestamp":"2026-06-01 14:16:11","level":"INFO","logger":"org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean","message":"Initialized JPA EntityManagerFactory for persistence unit 'default'"}{"timestamp":"2026-06-01 14:16:12","level":"WARN","logger":"org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration","message":"spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning"}{"timestamp":"2026-06-01 14:16:12","level":"INFO","logger":"org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer","message":"Global AuthenticationManager configured with AuthenticationProvider bean with name jobPortalUsernamePwdAuthenticationProvider"}{"timestamp":"2026-06-01 14:16:12","level":"DEBUG","logger":"org.springframework.security.web.DefaultSecurityFilterChain","message":"Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, CsrfFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter"}{"timestamp":"2026-06-01 14:16:12","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Starting ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:16:12","level":"INFO","logger":"org.springframework.boot.tomcat.TomcatWebServer","message":"Tomcat started on port 8080 (http) with context path '/'"}{"timestamp":"2026-06-01 14:16:12","level":"INFO","logger":"org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener","message":"Condition evaluation unchanged"}{"timestamp":"2026-06-01 14:16:14","level":"INFO","logger":"org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener","message":"Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)"}{"timestamp":"2026-06-01 14:16:14","level":"INFO","logger":"org.springframework.boot.tomcat.GracefulShutdown","message":"Commencing graceful shutdown. Waiting for active requests to complete"}{"timestamp":"2026-06-01 14:16:14","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Pausing ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:16:14","level":"INFO","logger":"org.springframework.boot.tomcat.GracefulShutdown","message":"Graceful shutdown complete"}{"timestamp":"2026-06-01 14:16:14","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Stopping ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:16:14","level":"INFO","logger":"org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean","message":"Closing JPA EntityManagerFactory for persistence unit 'default'"}{"timestamp":"2026-06-01 14:16:14","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-6 - Shutdown initiated..."}{"timestamp":"2026-06-01 14:16:14","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-6 - Shutdown completed."}{"timestamp":"2026-06-01 14:16:14","level":"INFO","logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","message":"Bootstrapping Spring Data JPA repositories in DEFAULT mode."}{"timestamp":"2026-06-01 14:16:14","level":"INFO","logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","message":"Finished Spring Data repository scanning in 57 ms. Found 4 JPA repository interfaces."}{"timestamp":"2026-06-01 14:16:14","level":"INFO","logger":"org.springframework.boot.tomcat.TomcatWebServer","message":"Tomcat initialized with port 8080 (http)"}{"timestamp":"2026-06-01 14:16:14","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Initializing ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:16:14","level":"INFO","logger":"org.apache.catalina.core.StandardService","message":"Starting service [Tomcat]"}{"timestamp":"2026-06-01 14:16:14","level":"INFO","logger":"org.apache.catalina.core.StandardEngine","message":"Starting Servlet engine: [Apache Tomcat/11.0.20]"}{"timestamp":"2026-06-01 14:16:14","level":"INFO","logger":"org.springframework.boot.web.context.servlet.WebApplicationContextInitializer","message":"Root WebApplicationContext: initialization completed in 687 ms"}{"timestamp":"2026-06-01 14:16:15","level":"INFO","logger":"org.hibernate.orm.jpa","message":"HHH008540: Processing PersistenceUnitInfo [name: default]"}{"timestamp":"2026-06-01 14:16:15","level":"INFO","logger":"org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo","message":"No LoadTimeWeaver setup: ignoring JPA class transformer"}{"timestamp":"2026-06-01 14:16:15","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-7 - Starting..."}{"timestamp":"2026-06-01 14:16:15","level":"INFO","logger":"com.zaxxer.hikari.pool.HikariPool","message":"HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@49989f99"}{"timestamp":"2026-06-01 14:16:15","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-7 - Start completed."}{"timestamp":"2026-06-01 14:16:15","level":"WARN","logger":"org.hibernate.orm.deprecation","message":"HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)"}{"timestamp":"2026-06-01 14:16:15","level":"INFO","logger":"org.hibernate.orm.connections.pooling","message":"HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/jobportaldb?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.46
+	Default catalog/schema: jobportaldb/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown"}{"timestamp":"2026-06-01 14:16:15","level":"DEBUG","logger":"org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator","message":"No schema actions specified for contributor 'orm'"}{"timestamp":"2026-06-01 14:16:15","level":"INFO","logger":"org.hibernate.orm.core","message":"HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)"}{"timestamp":"2026-06-01 14:16:15","level":"DEBUG","logger":"org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator","message":"No schema actions specified for contributor 'orm'"}{"timestamp":"2026-06-01 14:16:15","level":"DEBUG","logger":"org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator","message":"No schema management actions found"}{"timestamp":"2026-06-01 14:16:15","level":"INFO","logger":"org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean","message":"Initialized JPA EntityManagerFactory for persistence unit 'default'"}{"timestamp":"2026-06-01 14:16:15","level":"WARN","logger":"org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration","message":"spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning"}{"timestamp":"2026-06-01 14:16:16","level":"INFO","logger":"org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer","message":"Global AuthenticationManager configured with AuthenticationProvider bean with name jobPortalUsernamePwdAuthenticationProvider"}{"timestamp":"2026-06-01 14:16:16","level":"DEBUG","logger":"org.springframework.security.web.DefaultSecurityFilterChain","message":"Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, CsrfFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter"}{"timestamp":"2026-06-01 14:16:16","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Starting ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:16:16","level":"INFO","logger":"org.springframework.boot.tomcat.TomcatWebServer","message":"Tomcat started on port 8080 (http) with context path '/'"}{"timestamp":"2026-06-01 14:16:16","level":"INFO","logger":"org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener","message":"Condition evaluation unchanged"}{"timestamp":"2026-06-01 14:16:18","level":"INFO","logger":"org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener","message":"Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)"}{"timestamp":"2026-06-01 14:16:18","level":"INFO","logger":"org.springframework.boot.tomcat.GracefulShutdown","message":"Commencing graceful shutdown. Waiting for active requests to complete"}{"timestamp":"2026-06-01 14:16:18","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Pausing ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:16:18","level":"INFO","logger":"org.springframework.boot.tomcat.GracefulShutdown","message":"Graceful shutdown complete"}{"timestamp":"2026-06-01 14:16:18","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Stopping ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:16:18","level":"INFO","logger":"org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean","message":"Closing JPA EntityManagerFactory for persistence unit 'default'"}{"timestamp":"2026-06-01 14:16:18","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-7 - Shutdown initiated..."}{"timestamp":"2026-06-01 14:16:18","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-7 - Shutdown completed."}{"timestamp":"2026-06-01 14:16:18","level":"INFO","logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","message":"Bootstrapping Spring Data JPA repositories in DEFAULT mode."}{"timestamp":"2026-06-01 14:16:18","level":"INFO","logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","message":"Finished Spring Data repository scanning in 24 ms. Found 4 JPA repository interfaces."}{"timestamp":"2026-06-01 14:16:18","level":"INFO","logger":"org.springframework.boot.tomcat.TomcatWebServer","message":"Tomcat initialized with port 8080 (http)"}{"timestamp":"2026-06-01 14:16:18","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Initializing ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:16:18","level":"INFO","logger":"org.apache.catalina.core.StandardService","message":"Starting service [Tomcat]"}{"timestamp":"2026-06-01 14:16:18","level":"INFO","logger":"org.apache.catalina.core.StandardEngine","message":"Starting Servlet engine: [Apache Tomcat/11.0.20]"}{"timestamp":"2026-06-01 14:16:18","level":"INFO","logger":"org.springframework.boot.web.context.servlet.WebApplicationContextInitializer","message":"Root WebApplicationContext: initialization completed in 466 ms"}{"timestamp":"2026-06-01 14:16:18","level":"INFO","logger":"org.hibernate.orm.jpa","message":"HHH008540: Processing PersistenceUnitInfo [name: default]"}{"timestamp":"2026-06-01 14:16:19","level":"INFO","logger":"org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo","message":"No LoadTimeWeaver setup: ignoring JPA class transformer"}{"timestamp":"2026-06-01 14:16:19","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-8 - Starting..."}{"timestamp":"2026-06-01 14:16:19","level":"INFO","logger":"com.zaxxer.hikari.pool.HikariPool","message":"HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2821ad24"}{"timestamp":"2026-06-01 14:16:19","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-8 - Start completed."}{"timestamp":"2026-06-01 14:16:19","level":"WARN","logger":"org.hibernate.orm.deprecation","message":"HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)"}{"timestamp":"2026-06-01 14:16:19","level":"INFO","logger":"org.hibernate.orm.connections.pooling","message":"HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/jobportaldb?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.46
+	Default catalog/schema: jobportaldb/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown"}{"timestamp":"2026-06-01 14:16:19","level":"DEBUG","logger":"org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator","message":"No schema actions specified for contributor 'orm'"}{"timestamp":"2026-06-01 14:16:19","level":"INFO","logger":"org.hibernate.orm.core","message":"HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)"}{"timestamp":"2026-06-01 14:16:19","level":"DEBUG","logger":"org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator","message":"No schema actions specified for contributor 'orm'"}{"timestamp":"2026-06-01 14:16:19","level":"DEBUG","logger":"org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator","message":"No schema management actions found"}{"timestamp":"2026-06-01 14:16:19","level":"INFO","logger":"org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean","message":"Initialized JPA EntityManagerFactory for persistence unit 'default'"}{"timestamp":"2026-06-01 14:16:19","level":"WARN","logger":"org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration","message":"spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning"}{"timestamp":"2026-06-01 14:16:19","level":"INFO","logger":"org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer","message":"Global AuthenticationManager configured with AuthenticationProvider bean with name jobPortalUsernamePwdAuthenticationProvider"}{"timestamp":"2026-06-01 14:16:19","level":"DEBUG","logger":"org.springframework.security.web.DefaultSecurityFilterChain","message":"Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, CsrfFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter"}{"timestamp":"2026-06-01 14:16:19","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Starting ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:16:19","level":"INFO","logger":"org.springframework.boot.tomcat.TomcatWebServer","message":"Tomcat started on port 8080 (http) with context path '/'"}{"timestamp":"2026-06-01 14:16:19","level":"INFO","logger":"org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener","message":"Condition evaluation unchanged"}{"timestamp":"2026-06-01 14:16:21","level":"INFO","logger":"org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener","message":"Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)"}{"timestamp":"2026-06-01 14:16:21","level":"INFO","logger":"org.springframework.boot.tomcat.GracefulShutdown","message":"Commencing graceful shutdown. Waiting for active requests to complete"}{"timestamp":"2026-06-01 14:16:21","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Pausing ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:16:21","level":"INFO","logger":"org.springframework.boot.tomcat.GracefulShutdown","message":"Graceful shutdown complete"}{"timestamp":"2026-06-01 14:16:21","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Stopping ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:16:21","level":"INFO","logger":"org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean","message":"Closing JPA EntityManagerFactory for persistence unit 'default'"}{"timestamp":"2026-06-01 14:16:21","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-8 - Shutdown initiated..."}{"timestamp":"2026-06-01 14:16:21","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-8 - Shutdown completed."}{"timestamp":"2026-06-01 14:16:21","level":"INFO","logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","message":"Bootstrapping Spring Data JPA repositories in DEFAULT mode."}{"timestamp":"2026-06-01 14:16:21","level":"INFO","logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","message":"Finished Spring Data repository scanning in 33 ms. Found 4 JPA repository interfaces."}{"timestamp":"2026-06-01 14:16:21","level":"INFO","logger":"org.springframework.boot.tomcat.TomcatWebServer","message":"Tomcat initialized with port 8080 (http)"}{"timestamp":"2026-06-01 14:16:21","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Initializing ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:16:21","level":"INFO","logger":"org.apache.catalina.core.StandardService","message":"Starting service [Tomcat]"}{"timestamp":"2026-06-01 14:16:21","level":"INFO","logger":"org.apache.catalina.core.StandardEngine","message":"Starting Servlet engine: [Apache Tomcat/11.0.20]"}{"timestamp":"2026-06-01 14:16:21","level":"INFO","logger":"org.springframework.boot.web.context.servlet.WebApplicationContextInitializer","message":"Root WebApplicationContext: initialization completed in 492 ms"}{"timestamp":"2026-06-01 14:16:22","level":"INFO","logger":"org.hibernate.orm.jpa","message":"HHH008540: Processing PersistenceUnitInfo [name: default]"}{"timestamp":"2026-06-01 14:16:22","level":"INFO","logger":"org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo","message":"No LoadTimeWeaver setup: ignoring JPA class transformer"}{"timestamp":"2026-06-01 14:16:22","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-9 - Starting..."}{"timestamp":"2026-06-01 14:16:22","level":"INFO","logger":"com.zaxxer.hikari.pool.HikariPool","message":"HikariPool-9 - Added connection com.mysql.cj.jdbc.ConnectionImpl@8f98871"}{"timestamp":"2026-06-01 14:16:22","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-9 - Start completed."}{"timestamp":"2026-06-01 14:16:22","level":"WARN","logger":"org.hibernate.orm.deprecation","message":"HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)"}{"timestamp":"2026-06-01 14:16:22","level":"INFO","logger":"org.hibernate.orm.connections.pooling","message":"HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/jobportaldb?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.46
+	Default catalog/schema: jobportaldb/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown"}{"timestamp":"2026-06-01 14:16:22","level":"DEBUG","logger":"org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator","message":"No schema actions specified for contributor 'orm'"}{"timestamp":"2026-06-01 14:16:22","level":"INFO","logger":"org.hibernate.orm.core","message":"HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)"}{"timestamp":"2026-06-01 14:16:22","level":"DEBUG","logger":"org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator","message":"No schema actions specified for contributor 'orm'"}{"timestamp":"2026-06-01 14:16:22","level":"DEBUG","logger":"org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator","message":"No schema management actions found"}{"timestamp":"2026-06-01 14:16:22","level":"INFO","logger":"org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean","message":"Initialized JPA EntityManagerFactory for persistence unit 'default'"}{"timestamp":"2026-06-01 14:16:22","level":"WARN","logger":"org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration","message":"spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning"}{"timestamp":"2026-06-01 14:16:22","level":"INFO","logger":"org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer","message":"Global AuthenticationManager configured with AuthenticationProvider bean with name jobPortalUsernamePwdAuthenticationProvider"}{"timestamp":"2026-06-01 14:16:22","level":"DEBUG","logger":"org.springframework.security.web.DefaultSecurityFilterChain","message":"Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, CsrfFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter"}{"timestamp":"2026-06-01 14:16:22","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Starting ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:16:22","level":"INFO","logger":"org.springframework.boot.tomcat.TomcatWebServer","message":"Tomcat started on port 8080 (http) with context path '/'"}{"timestamp":"2026-06-01 14:16:22","level":"INFO","logger":"org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener","message":"Condition evaluation unchanged"}{"timestamp":"2026-06-01 14:16:24","level":"INFO","logger":"org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener","message":"Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)"}{"timestamp":"2026-06-01 14:16:24","level":"INFO","logger":"org.springframework.boot.tomcat.GracefulShutdown","message":"Commencing graceful shutdown. Waiting for active requests to complete"}{"timestamp":"2026-06-01 14:16:24","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Pausing ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:16:24","level":"INFO","logger":"org.springframework.boot.tomcat.GracefulShutdown","message":"Graceful shutdown complete"}{"timestamp":"2026-06-01 14:16:24","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Stopping ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:16:24","level":"INFO","logger":"org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean","message":"Closing JPA EntityManagerFactory for persistence unit 'default'"}{"timestamp":"2026-06-01 14:16:24","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-9 - Shutdown initiated..."}{"timestamp":"2026-06-01 14:16:24","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-9 - Shutdown completed."}{"timestamp":"2026-06-01 14:16:24","level":"INFO","logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","message":"Bootstrapping Spring Data JPA repositories in DEFAULT mode."}{"timestamp":"2026-06-01 14:16:24","level":"INFO","logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","message":"Finished Spring Data repository scanning in 27 ms. Found 4 JPA repository interfaces."}{"timestamp":"2026-06-01 14:16:24","level":"INFO","logger":"org.springframework.boot.tomcat.TomcatWebServer","message":"Tomcat initialized with port 8080 (http)"}{"timestamp":"2026-06-01 14:16:24","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Initializing ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:16:24","level":"INFO","logger":"org.apache.catalina.core.StandardService","message":"Starting service [Tomcat]"}{"timestamp":"2026-06-01 14:16:24","level":"INFO","logger":"org.apache.catalina.core.StandardEngine","message":"Starting Servlet engine: [Apache Tomcat/11.0.20]"}{"timestamp":"2026-06-01 14:16:24","level":"INFO","logger":"org.springframework.boot.web.context.servlet.WebApplicationContextInitializer","message":"Root WebApplicationContext: initialization completed in 398 ms"}{"timestamp":"2026-06-01 14:16:24","level":"INFO","logger":"org.hibernate.orm.jpa","message":"HHH008540: Processing PersistenceUnitInfo [name: default]"}{"timestamp":"2026-06-01 14:16:24","level":"INFO","logger":"org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo","message":"No LoadTimeWeaver setup: ignoring JPA class transformer"}{"timestamp":"2026-06-01 14:16:24","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-10 - Starting..."}{"timestamp":"2026-06-01 14:16:24","level":"INFO","logger":"com.zaxxer.hikari.pool.HikariPool","message":"HikariPool-10 - Added connection com.mysql.cj.jdbc.ConnectionImpl@346b8d22"}{"timestamp":"2026-06-01 14:16:24","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-10 - Start completed."}{"timestamp":"2026-06-01 14:16:24","level":"WARN","logger":"org.hibernate.orm.deprecation","message":"HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)"}{"timestamp":"2026-06-01 14:16:24","level":"INFO","logger":"org.hibernate.orm.connections.pooling","message":"HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/jobportaldb?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.46
+	Default catalog/schema: jobportaldb/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown"}{"timestamp":"2026-06-01 14:16:24","level":"DEBUG","logger":"org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator","message":"No schema actions specified for contributor 'orm'"}{"timestamp":"2026-06-01 14:16:24","level":"INFO","logger":"org.hibernate.orm.core","message":"HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)"}{"timestamp":"2026-06-01 14:16:24","level":"DEBUG","logger":"org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator","message":"No schema actions specified for contributor 'orm'"}{"timestamp":"2026-06-01 14:16:24","level":"DEBUG","logger":"org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator","message":"No schema management actions found"}{"timestamp":"2026-06-01 14:16:24","level":"INFO","logger":"org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean","message":"Initialized JPA EntityManagerFactory for persistence unit 'default'"}{"timestamp":"2026-06-01 14:16:25","level":"WARN","logger":"org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration","message":"spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning"}{"timestamp":"2026-06-01 14:16:25","level":"INFO","logger":"org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer","message":"Global AuthenticationManager configured with AuthenticationProvider bean with name jobPortalUsernamePwdAuthenticationProvider"}{"timestamp":"2026-06-01 14:16:25","level":"DEBUG","logger":"org.springframework.security.web.DefaultSecurityFilterChain","message":"Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, CsrfFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter"}{"timestamp":"2026-06-01 14:16:25","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Starting ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:16:25","level":"INFO","logger":"org.springframework.boot.tomcat.TomcatWebServer","message":"Tomcat started on port 8080 (http) with context path '/'"}{"timestamp":"2026-06-01 14:16:25","level":"INFO","logger":"org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener","message":"Condition evaluation unchanged"}{"timestamp":"2026-06-01 14:16:29","level":"INFO","logger":"org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener","message":"Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)"}{"timestamp":"2026-06-01 14:16:29","level":"INFO","logger":"org.springframework.boot.tomcat.GracefulShutdown","message":"Commencing graceful shutdown. Waiting for active requests to complete"}{"timestamp":"2026-06-01 14:16:29","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Pausing ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:16:29","level":"INFO","logger":"org.springframework.boot.tomcat.GracefulShutdown","message":"Graceful shutdown complete"}{"timestamp":"2026-06-01 14:16:29","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Stopping ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:16:29","level":"INFO","logger":"org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean","message":"Closing JPA EntityManagerFactory for persistence unit 'default'"}{"timestamp":"2026-06-01 14:16:29","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-10 - Shutdown initiated..."}{"timestamp":"2026-06-01 14:16:29","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-10 - Shutdown completed."}{"timestamp":"2026-06-01 14:16:30","level":"INFO","logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","message":"Bootstrapping Spring Data JPA repositories in DEFAULT mode."}{"timestamp":"2026-06-01 14:16:30","level":"INFO","logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","message":"Finished Spring Data repository scanning in 21 ms. Found 4 JPA repository interfaces."}{"timestamp":"2026-06-01 14:16:30","level":"INFO","logger":"org.springframework.boot.tomcat.TomcatWebServer","message":"Tomcat initialized with port 8080 (http)"}{"timestamp":"2026-06-01 14:16:30","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Initializing ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:16:30","level":"INFO","logger":"org.apache.catalina.core.StandardService","message":"Starting service [Tomcat]"}{"timestamp":"2026-06-01 14:16:30","level":"INFO","logger":"org.apache.catalina.core.StandardEngine","message":"Starting Servlet engine: [Apache Tomcat/11.0.20]"}{"timestamp":"2026-06-01 14:16:30","level":"INFO","logger":"org.springframework.boot.web.context.servlet.WebApplicationContextInitializer","message":"Root WebApplicationContext: initialization completed in 308 ms"}{"timestamp":"2026-06-01 14:16:30","level":"INFO","logger":"org.hibernate.orm.jpa","message":"HHH008540: Processing PersistenceUnitInfo [name: default]"}{"timestamp":"2026-06-01 14:16:30","level":"INFO","logger":"org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo","message":"No LoadTimeWeaver setup: ignoring JPA class transformer"}{"timestamp":"2026-06-01 14:16:30","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-11 - Starting..."}{"timestamp":"2026-06-01 14:16:30","level":"INFO","logger":"com.zaxxer.hikari.pool.HikariPool","message":"HikariPool-11 - Added connection com.mysql.cj.jdbc.ConnectionImpl@78b45313"}{"timestamp":"2026-06-01 14:16:30","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-11 - Start completed."}{"timestamp":"2026-06-01 14:16:30","level":"WARN","logger":"org.hibernate.orm.deprecation","message":"HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)"}{"timestamp":"2026-06-01 14:16:30","level":"INFO","logger":"org.hibernate.orm.connections.pooling","message":"HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/jobportaldb?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.46
+	Default catalog/schema: jobportaldb/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown"}{"timestamp":"2026-06-01 14:16:30","level":"DEBUG","logger":"org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator","message":"No schema actions specified for contributor 'orm'"}{"timestamp":"2026-06-01 14:16:30","level":"INFO","logger":"org.hibernate.orm.core","message":"HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)"}{"timestamp":"2026-06-01 14:16:30","level":"DEBUG","logger":"org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator","message":"No schema actions specified for contributor 'orm'"}{"timestamp":"2026-06-01 14:16:30","level":"DEBUG","logger":"org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator","message":"No schema management actions found"}{"timestamp":"2026-06-01 14:16:30","level":"INFO","logger":"org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean","message":"Initialized JPA EntityManagerFactory for persistence unit 'default'"}{"timestamp":"2026-06-01 14:16:30","level":"WARN","logger":"org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration","message":"spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning"}{"timestamp":"2026-06-01 14:16:30","level":"INFO","logger":"org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer","message":"Global AuthenticationManager configured with AuthenticationProvider bean with name jobPortalUsernamePwdAuthenticationProvider"}{"timestamp":"2026-06-01 14:16:30","level":"DEBUG","logger":"org.springframework.security.web.DefaultSecurityFilterChain","message":"Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, CsrfFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter"}{"timestamp":"2026-06-01 14:16:30","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Starting ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:16:30","level":"INFO","logger":"org.springframework.boot.tomcat.TomcatWebServer","message":"Tomcat started on port 8080 (http) with context path '/'"}{"timestamp":"2026-06-01 14:16:30","level":"INFO","logger":"org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener","message":"Condition evaluation unchanged"}{"timestamp":"2026-06-01 14:16:32","level":"INFO","logger":"org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener","message":"Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)"}{"timestamp":"2026-06-01 14:16:32","level":"INFO","logger":"org.springframework.boot.tomcat.GracefulShutdown","message":"Commencing graceful shutdown. Waiting for active requests to complete"}{"timestamp":"2026-06-01 14:16:32","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Pausing ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:16:32","level":"INFO","logger":"org.springframework.boot.tomcat.GracefulShutdown","message":"Graceful shutdown complete"}{"timestamp":"2026-06-01 14:16:32","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Stopping ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:16:32","level":"INFO","logger":"org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean","message":"Closing JPA EntityManagerFactory for persistence unit 'default'"}{"timestamp":"2026-06-01 14:16:32","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-11 - Shutdown initiated..."}{"timestamp":"2026-06-01 14:16:32","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-11 - Shutdown completed."}{"timestamp":"2026-06-01 14:16:32","level":"INFO","logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","message":"Bootstrapping Spring Data JPA repositories in DEFAULT mode."}{"timestamp":"2026-06-01 14:16:32","level":"INFO","logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","message":"Finished Spring Data repository scanning in 35 ms. Found 4 JPA repository interfaces."}{"timestamp":"2026-06-01 14:16:32","level":"INFO","logger":"org.springframework.boot.tomcat.TomcatWebServer","message":"Tomcat initialized with port 8080 (http)"}{"timestamp":"2026-06-01 14:16:32","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Initializing ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:16:32","level":"INFO","logger":"org.apache.catalina.core.StandardService","message":"Starting service [Tomcat]"}{"timestamp":"2026-06-01 14:16:32","level":"INFO","logger":"org.apache.catalina.core.StandardEngine","message":"Starting Servlet engine: [Apache Tomcat/11.0.20]"}{"timestamp":"2026-06-01 14:16:32","level":"INFO","logger":"org.springframework.boot.web.context.servlet.WebApplicationContextInitializer","message":"Root WebApplicationContext: initialization completed in 497 ms"}{"timestamp":"2026-06-01 14:16:33","level":"INFO","logger":"org.hibernate.orm.jpa","message":"HHH008540: Processing PersistenceUnitInfo [name: default]"}{"timestamp":"2026-06-01 14:16:33","level":"INFO","logger":"org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo","message":"No LoadTimeWeaver setup: ignoring JPA class transformer"}{"timestamp":"2026-06-01 14:16:33","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-12 - Starting..."}{"timestamp":"2026-06-01 14:16:33","level":"INFO","logger":"com.zaxxer.hikari.pool.HikariPool","message":"HikariPool-12 - Added connection com.mysql.cj.jdbc.ConnectionImpl@327b15bd"}{"timestamp":"2026-06-01 14:16:33","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-12 - Start completed."}{"timestamp":"2026-06-01 14:16:33","level":"WARN","logger":"org.hibernate.orm.deprecation","message":"HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)"}{"timestamp":"2026-06-01 14:16:33","level":"INFO","logger":"org.hibernate.orm.connections.pooling","message":"HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/jobportaldb?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.46
+	Default catalog/schema: jobportaldb/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown"}{"timestamp":"2026-06-01 14:16:33","level":"DEBUG","logger":"org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator","message":"No schema actions specified for contributor 'orm'"}{"timestamp":"2026-06-01 14:16:33","level":"INFO","logger":"org.hibernate.orm.core","message":"HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)"}{"timestamp":"2026-06-01 14:16:33","level":"DEBUG","logger":"org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator","message":"No schema actions specified for contributor 'orm'"}{"timestamp":"2026-06-01 14:16:33","level":"DEBUG","logger":"org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator","message":"No schema management actions found"}{"timestamp":"2026-06-01 14:16:33","level":"INFO","logger":"org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean","message":"Initialized JPA EntityManagerFactory for persistence unit 'default'"}{"timestamp":"2026-06-01 14:16:33","level":"WARN","logger":"org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration","message":"spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning"}{"timestamp":"2026-06-01 14:16:33","level":"INFO","logger":"org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer","message":"Global AuthenticationManager configured with AuthenticationProvider bean with name jobPortalUsernamePwdAuthenticationProvider"}{"timestamp":"2026-06-01 14:16:33","level":"DEBUG","logger":"org.springframework.security.web.DefaultSecurityFilterChain","message":"Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, CsrfFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter"}{"timestamp":"2026-06-01 14:16:33","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Starting ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:16:33","level":"INFO","logger":"org.springframework.boot.tomcat.TomcatWebServer","message":"Tomcat started on port 8080 (http) with context path '/'"}{"timestamp":"2026-06-01 14:16:33","level":"INFO","logger":"org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener","message":"Condition evaluation unchanged"}{"timestamp":"2026-06-01 14:16:36","level":"INFO","logger":"org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener","message":"Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)"}{"timestamp":"2026-06-01 14:16:36","level":"INFO","logger":"org.springframework.boot.tomcat.GracefulShutdown","message":"Commencing graceful shutdown. Waiting for active requests to complete"}{"timestamp":"2026-06-01 14:16:36","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Pausing ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:16:36","level":"INFO","logger":"org.springframework.boot.tomcat.GracefulShutdown","message":"Graceful shutdown complete"}{"timestamp":"2026-06-01 14:16:36","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Stopping ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:16:36","level":"INFO","logger":"org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean","message":"Closing JPA EntityManagerFactory for persistence unit 'default'"}{"timestamp":"2026-06-01 14:16:36","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-12 - Shutdown initiated..."}{"timestamp":"2026-06-01 14:16:36","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-12 - Shutdown completed."}{"timestamp":"2026-06-01 14:16:36","level":"INFO","logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","message":"Bootstrapping Spring Data JPA repositories in DEFAULT mode."}{"timestamp":"2026-06-01 14:16:36","level":"WARN","logger":"org.springframework.boot.web.server.servlet.context.AnnotationConfigServletWebServerApplicationContext","message":"Exception encountered during context initialization - cancelling refresh attempt: java.lang.NoClassDefFoundError: List"}{"timestamp":"2026-06-01 14:16:36","level":"INFO","logger":"org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger","message":"
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled."}{"timestamp":"2026-06-01 14:16:36","level":"ERROR","logger":"org.springframework.boot.SpringApplication","message":"Application run failed"}java.lang.NoClassDefFoundError: List
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3011)
+	at java.base/java.lang.Class.privateGetPublicMethods(Class.java:3032)
+	at java.base/java.lang.Class.getMethods(Class.java:1997)
+	at org.springframework.data.core.ReactiveWrappers.usesReactiveType(ReactiveWrappers.java:144)
+	at org.springframework.data.repository.core.support.AbstractRepositoryMetadata.isReactiveRepository(AbstractRepositoryMetadata.java:140)
+	at org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.useRepositoryConfiguration(RepositoryConfigurationExtensionSupport.java:344)
+	at org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.getRepositoryConfigurations(RepositoryConfigurationExtensionSupport.java:98)
+	at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:170)
+	at org.springframework.boot.autoconfigure.data.AbstractRepositoryConfigurationSourceSupport.registerBeanDefinitions(AbstractRepositoryConfigurationSourceSupport.java:67)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromImportBeanDefinitionRegistrars$0(ConfigurationClassBeanDefinitionReader.java:422)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:987)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromImportBeanDefinitionRegistrars(ConfigurationClassBeanDefinitionReader.java:421)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:152)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:124)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:464)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:316)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:795)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:603)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at com.eazybytes.jobportal.JobportalApplication.main(JobportalApplication.java:12)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52)
+Caused by: java.lang.ClassNotFoundException: List
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:502)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:560)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:123)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:502)
+	... 31 common frames omitted
+{"timestamp":"2026-06-01 14:24:30","level":"INFO","logger":"org.hibernate.validator.internal.util.Version","message":"HV000001: Hibernate Validator 9.0.1.Final"}{"timestamp":"2026-06-01 14:24:30","level":"INFO","logger":"org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor","message":"Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable"}{"timestamp":"2026-06-01 14:24:30","level":"INFO","logger":"org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor","message":"For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'"}{"timestamp":"2026-06-01 14:24:31","level":"INFO","logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","message":"Bootstrapping Spring Data JPA repositories in DEFAULT mode."}{"timestamp":"2026-06-01 14:24:31","level":"INFO","logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","message":"Finished Spring Data repository scanning in 107 ms. Found 4 JPA repository interfaces."}{"timestamp":"2026-06-01 14:24:32","level":"INFO","logger":"org.springframework.boot.tomcat.TomcatWebServer","message":"Tomcat initialized with port 8080 (http)"}{"timestamp":"2026-06-01 14:24:32","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Initializing ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:24:32","level":"INFO","logger":"org.apache.catalina.core.StandardService","message":"Starting service [Tomcat]"}{"timestamp":"2026-06-01 14:24:32","level":"INFO","logger":"org.apache.catalina.core.StandardEngine","message":"Starting Servlet engine: [Apache Tomcat/11.0.20]"}{"timestamp":"2026-06-01 14:24:32","level":"INFO","logger":"org.springframework.boot.web.context.servlet.WebApplicationContextInitializer","message":"Root WebApplicationContext: initialization completed in 2159 ms"}{"timestamp":"2026-06-01 14:24:33","level":"INFO","logger":"org.hibernate.orm.jpa","message":"HHH008540: Processing PersistenceUnitInfo [name: default]"}{"timestamp":"2026-06-01 14:24:33","level":"INFO","logger":"org.hibernate.orm.core","message":"HHH000001: Hibernate ORM core version 7.2.7.Final"}{"timestamp":"2026-06-01 14:24:33","level":"INFO","logger":"org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo","message":"No LoadTimeWeaver setup: ignoring JPA class transformer"}{"timestamp":"2026-06-01 14:24:33","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-1 - Starting..."}{"timestamp":"2026-06-01 14:24:33","level":"INFO","logger":"com.zaxxer.hikari.pool.HikariPool","message":"HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@69802116"}{"timestamp":"2026-06-01 14:24:33","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-1 - Start completed."}{"timestamp":"2026-06-01 14:24:33","level":"WARN","logger":"org.hibernate.orm.deprecation","message":"HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)"}{"timestamp":"2026-06-01 14:24:33","level":"INFO","logger":"org.hibernate.orm.connections.pooling","message":"HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/jobportaldb?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.46
+	Default catalog/schema: jobportaldb/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown"}{"timestamp":"2026-06-01 14:24:34","level":"DEBUG","logger":"org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator","message":"No schema actions specified for contributor 'orm'"}{"timestamp":"2026-06-01 14:24:34","level":"INFO","logger":"org.hibernate.orm.core","message":"HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)"}{"timestamp":"2026-06-01 14:24:34","level":"DEBUG","logger":"org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator","message":"No schema actions specified for contributor 'orm'"}{"timestamp":"2026-06-01 14:24:34","level":"DEBUG","logger":"org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator","message":"No schema management actions found"}{"timestamp":"2026-06-01 14:24:34","level":"INFO","logger":"org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean","message":"Initialized JPA EntityManagerFactory for persistence unit 'default'"}{"timestamp":"2026-06-01 14:24:35","level":"INFO","logger":"org.springframework.data.jpa.repository.query.QueryEnhancerFactories","message":"Hibernate is in classpath; If applicable, HQL parser will be used."}{"timestamp":"2026-06-01 14:24:36","level":"WARN","logger":"org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration","message":"spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning"}{"timestamp":"2026-06-01 14:24:36","level":"INFO","logger":"org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer","message":"Global AuthenticationManager configured with AuthenticationProvider bean with name jobPortalUsernamePwdAuthenticationProvider"}{"timestamp":"2026-06-01 14:24:36","level":"DEBUG","logger":"org.springframework.security.web.DefaultSecurityFilterChain","message":"Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, CsrfFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter"}{"timestamp":"2026-06-01 14:24:37","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Starting ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:24:37","level":"INFO","logger":"org.springframework.boot.tomcat.TomcatWebServer","message":"Tomcat started on port 8080 (http) with context path '/'"}{"timestamp":"2026-06-01 14:24:56","level":"INFO","logger":"org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]","message":"Initializing Spring DispatcherServlet 'dispatcherServlet'"}{"timestamp":"2026-06-01 14:24:56","level":"INFO","logger":"org.springframework.web.servlet.DispatcherServlet","message":"Initializing Servlet 'dispatcherServlet'"}{"timestamp":"2026-06-01 14:24:56","level":"INFO","logger":"org.springframework.web.servlet.DispatcherServlet","message":"Completed initialization in 2 ms"}{"timestamp":"2026-06-01 14:24:56","level":"DEBUG","logger":"org.springframework.security.web.FilterChainProxy","message":"Securing GET /api/csrf-token/public"}{"timestamp":"2026-06-01 14:24:56","level":"DEBUG","logger":"org.springframework.security.web.FilterChainProxy","message":"Secured GET /api/csrf-token/public"}{"timestamp":"2026-06-01 14:24:57","level":"DEBUG","logger":"org.springframework.security.web.authentication.AnonymousAuthenticationFilter","message":"Set SecurityContextHolder to anonymous SecurityContext"}{"timestamp":"2026-06-01 14:25:23","level":"DEBUG","logger":"org.springframework.security.web.FilterChainProxy","message":"Securing GET /api/companies/public"}{"timestamp":"2026-06-01 14:25:23","level":"DEBUG","logger":"org.springframework.security.web.FilterChainProxy","message":"Secured GET /api/companies/public"}{"timestamp":"2026-06-01 14:25:23","level":"DEBUG","logger":"org.hibernate.SQL","message":"
+    select
+        distinct c1_0.id,
+        c1_0.created_at,
+        c1_0.created_by,
+        c1_0.description,
+        c1_0.employees,
+        c1_0.founded,
+        c1_0.industry,
+        j1_0.company_id,
+        j1_0.id,
+        j1_0.application_deadline,
+        j1_0.applications_count,
+        j1_0.benefits,
+        j1_0.category,
+        j1_0.created_at,
+        j1_0.created_by,
+        j1_0.description,
+        j1_0.experience_level,
+        j1_0.featured,
+        j1_0.job_type,
+        j1_0.location,
+        j1_0.posted_date,
+        j1_0.remote,
+        j1_0.requirements,
+        j1_0.salary_currency,
+        j1_0.salary_max,
+        j1_0.salary_min,
+        j1_0.salary_period,
+        j1_0.status,
+        j1_0.title,
+        j1_0.updated_at,
+        j1_0.updated_by,
+        j1_0.urgent,
+        j1_0.work_type,
+        c1_0.locations,
+        c1_0.logo,
+        c1_0.name,
+        c1_0.rating,
+        c1_0.size,
+        c1_0.updated_at,
+        c1_0.updated_by,
+        c1_0.website 
+    from
+        companies c1_0 
+    join
+        jobs j1_0 
+            on c1_0.id=j1_0.company_id 
+    where
+        j1_0.status=?"}{"timestamp":"2026-06-01 14:25:24","level":"DEBUG","logger":"org.springframework.security.web.authentication.AnonymousAuthenticationFilter","message":"Set SecurityContextHolder to anonymous SecurityContext"}{"timestamp":"2026-06-01 14:25:59","level":"DEBUG","logger":"org.springframework.security.web.FilterChainProxy","message":"Securing GET /api/companies/public"}{"timestamp":"2026-06-01 14:25:59","level":"DEBUG","logger":"org.springframework.security.web.FilterChainProxy","message":"Secured GET /api/companies/public"}{"timestamp":"2026-06-01 14:25:59","level":"DEBUG","logger":"org.hibernate.SQL","message":"
+    select
+        distinct c1_0.id,
+        c1_0.created_at,
+        c1_0.created_by,
+        c1_0.description,
+        c1_0.employees,
+        c1_0.founded,
+        c1_0.industry,
+        j1_0.company_id,
+        j1_0.id,
+        j1_0.application_deadline,
+        j1_0.applications_count,
+        j1_0.benefits,
+        j1_0.category,
+        j1_0.created_at,
+        j1_0.created_by,
+        j1_0.description,
+        j1_0.experience_level,
+        j1_0.featured,
+        j1_0.job_type,
+        j1_0.location,
+        j1_0.posted_date,
+        j1_0.remote,
+        j1_0.requirements,
+        j1_0.salary_currency,
+        j1_0.salary_max,
+        j1_0.salary_min,
+        j1_0.salary_period,
+        j1_0.status,
+        j1_0.title,
+        j1_0.updated_at,
+        j1_0.updated_by,
+        j1_0.urgent,
+        j1_0.work_type,
+        c1_0.locations,
+        c1_0.logo,
+        c1_0.name,
+        c1_0.rating,
+        c1_0.size,
+        c1_0.updated_at,
+        c1_0.updated_by,
+        c1_0.website 
+    from
+        companies c1_0 
+    join
+        jobs j1_0 
+            on c1_0.id=j1_0.company_id 
+    where
+        j1_0.status=?"}{"timestamp":"2026-06-01 14:25:59","level":"DEBUG","logger":"org.springframework.security.web.FilterChainProxy","message":"Securing GET /api/companies/public"}{"timestamp":"2026-06-01 14:25:59","level":"DEBUG","logger":"org.springframework.security.web.FilterChainProxy","message":"Secured GET /api/companies/public"}{"timestamp":"2026-06-01 14:25:59","level":"DEBUG","logger":"org.hibernate.SQL","message":"
+    select
+        distinct c1_0.id,
+        c1_0.created_at,
+        c1_0.created_by,
+        c1_0.description,
+        c1_0.employees,
+        c1_0.founded,
+        c1_0.industry,
+        j1_0.company_id,
+        j1_0.id,
+        j1_0.application_deadline,
+        j1_0.applications_count,
+        j1_0.benefits,
+        j1_0.category,
+        j1_0.created_at,
+        j1_0.created_by,
+        j1_0.description,
+        j1_0.experience_level,
+        j1_0.featured,
+        j1_0.job_type,
+        j1_0.location,
+        j1_0.posted_date,
+        j1_0.remote,
+        j1_0.requirements,
+        j1_0.salary_currency,
+        j1_0.salary_max,
+        j1_0.salary_min,
+        j1_0.salary_period,
+        j1_0.status,
+        j1_0.title,
+        j1_0.updated_at,
+        j1_0.updated_by,
+        j1_0.urgent,
+        j1_0.work_type,
+        c1_0.locations,
+        c1_0.logo,
+        c1_0.name,
+        c1_0.rating,
+        c1_0.size,
+        c1_0.updated_at,
+        c1_0.updated_by,
+        c1_0.website 
+    from
+        companies c1_0 
+    join
+        jobs j1_0 
+            on c1_0.id=j1_0.company_id 
+    where
+        j1_0.status=?"}{"timestamp":"2026-06-01 14:25:59","level":"DEBUG","logger":"org.springframework.security.web.authentication.AnonymousAuthenticationFilter","message":"Set SecurityContextHolder to anonymous SecurityContext"}{"timestamp":"2026-06-01 14:25:59","level":"DEBUG","logger":"org.springframework.security.web.authentication.AnonymousAuthenticationFilter","message":"Set SecurityContextHolder to anonymous SecurityContext"}{"timestamp":"2026-06-01 14:30:02","level":"INFO","logger":"org.hibernate.validator.internal.util.Version","message":"HV000001: Hibernate Validator 9.0.1.Final"}{"timestamp":"2026-06-01 14:30:03","level":"INFO","logger":"org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor","message":"Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable"}{"timestamp":"2026-06-01 14:30:03","level":"INFO","logger":"org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor","message":"For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'"}{"timestamp":"2026-06-01 14:30:04","level":"INFO","logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","message":"Bootstrapping Spring Data JPA repositories in DEFAULT mode."}{"timestamp":"2026-06-01 14:30:04","level":"INFO","logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","message":"Finished Spring Data repository scanning in 61 ms. Found 4 JPA repository interfaces."}{"timestamp":"2026-06-01 14:30:04","level":"INFO","logger":"org.springframework.boot.tomcat.TomcatWebServer","message":"Tomcat initialized with port 8080 (http)"}{"timestamp":"2026-06-01 14:30:04","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Initializing ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:30:04","level":"INFO","logger":"org.apache.catalina.core.StandardService","message":"Starting service [Tomcat]"}{"timestamp":"2026-06-01 14:30:04","level":"INFO","logger":"org.apache.catalina.core.StandardEngine","message":"Starting Servlet engine: [Apache Tomcat/11.0.20]"}{"timestamp":"2026-06-01 14:30:05","level":"INFO","logger":"org.springframework.boot.web.context.servlet.WebApplicationContextInitializer","message":"Root WebApplicationContext: initialization completed in 1957 ms"}{"timestamp":"2026-06-01 14:30:05","level":"INFO","logger":"org.hibernate.orm.jpa","message":"HHH008540: Processing PersistenceUnitInfo [name: default]"}{"timestamp":"2026-06-01 14:30:05","level":"INFO","logger":"org.hibernate.orm.core","message":"HHH000001: Hibernate ORM core version 7.2.7.Final"}{"timestamp":"2026-06-01 14:30:05","level":"INFO","logger":"org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo","message":"No LoadTimeWeaver setup: ignoring JPA class transformer"}{"timestamp":"2026-06-01 14:30:05","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-1 - Starting..."}{"timestamp":"2026-06-01 14:30:06","level":"INFO","logger":"com.zaxxer.hikari.pool.HikariPool","message":"HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@31f634e4"}{"timestamp":"2026-06-01 14:30:06","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-1 - Start completed."}{"timestamp":"2026-06-01 14:30:06","level":"WARN","logger":"org.hibernate.orm.deprecation","message":"HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)"}{"timestamp":"2026-06-01 14:30:06","level":"INFO","logger":"org.hibernate.orm.connections.pooling","message":"HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/jobportaldb?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.46
+	Default catalog/schema: jobportaldb/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown"}{"timestamp":"2026-06-01 14:30:06","level":"DEBUG","logger":"org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator","message":"No schema actions specified for contributor 'orm'"}{"timestamp":"2026-06-01 14:30:07","level":"INFO","logger":"org.hibernate.orm.core","message":"HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)"}{"timestamp":"2026-06-01 14:30:07","level":"DEBUG","logger":"org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator","message":"No schema actions specified for contributor 'orm'"}{"timestamp":"2026-06-01 14:30:07","level":"DEBUG","logger":"org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator","message":"No schema management actions found"}{"timestamp":"2026-06-01 14:30:07","level":"INFO","logger":"org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean","message":"Initialized JPA EntityManagerFactory for persistence unit 'default'"}{"timestamp":"2026-06-01 14:30:07","level":"INFO","logger":"org.springframework.data.jpa.repository.query.QueryEnhancerFactories","message":"Hibernate is in classpath; If applicable, HQL parser will be used."}{"timestamp":"2026-06-01 14:30:08","level":"WARN","logger":"org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration","message":"spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning"}{"timestamp":"2026-06-01 14:30:08","level":"INFO","logger":"org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer","message":"Global AuthenticationManager configured with AuthenticationProvider bean with name jobPortalUsernamePwdAuthenticationProvider"}{"timestamp":"2026-06-01 14:30:08","level":"DEBUG","logger":"org.springframework.security.web.DefaultSecurityFilterChain","message":"Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, CsrfFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter"}{"timestamp":"2026-06-01 14:30:09","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Starting ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-06-01 14:30:09","level":"INFO","logger":"org.springframework.boot.tomcat.TomcatWebServer","message":"Tomcat started on port 8080 (http) with context path '/'"}{"timestamp":"2026-06-01 14:46:38","level":"WARN","logger":"com.zaxxer.hikari.pool.HikariPool","message":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m32s410ms850µs100ns)."}{"timestamp":"2026-06-01 14:58:27","level":"INFO","logger":"org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]","message":"Initializing Spring DispatcherServlet 'dispatcherServlet'"}{"timestamp":"2026-06-01 14:58:27","level":"INFO","logger":"org.springframework.web.servlet.DispatcherServlet","message":"Initializing Servlet 'dispatcherServlet'"}{"timestamp":"2026-06-01 14:58:27","level":"INFO","logger":"org.springframework.web.servlet.DispatcherServlet","message":"Completed initialization in 19 ms"}{"timestamp":"2026-06-01 14:58:28","level":"DEBUG","logger":"org.springframework.security.web.FilterChainProxy","message":"Securing GET /api/companies/public"}{"timestamp":"2026-06-01 14:58:28","level":"DEBUG","logger":"org.springframework.security.web.FilterChainProxy","message":"Secured GET /api/companies/public"}{"timestamp":"2026-06-01 14:58:28","level":"DEBUG","logger":"org.springframework.security.web.FilterChainProxy","message":"Securing GET /api/companies/public"}{"timestamp":"2026-06-01 14:58:28","level":"DEBUG","logger":"org.springframework.security.web.FilterChainProxy","message":"Secured GET /api/companies/public"}{"timestamp":"2026-06-01 14:58:28","level":"DEBUG","logger":"org.hibernate.SQL","message":"
+    select
+        distinct c1_0.id,
+        c1_0.created_at,
+        c1_0.created_by,
+        c1_0.description,
+        c1_0.employees,
+        c1_0.founded,
+        c1_0.industry,
+        j1_0.company_id,
+        j1_0.id,
+        j1_0.application_deadline,
+        j1_0.applications_count,
+        j1_0.benefits,
+        j1_0.category,
+        j1_0.created_at,
+        j1_0.created_by,
+        j1_0.description,
+        j1_0.experience_level,
+        j1_0.featured,
+        j1_0.job_type,
+        j1_0.location,
+        j1_0.posted_date,
+        j1_0.remote,
+        j1_0.requirements,
+        j1_0.salary_currency,
+        j1_0.salary_max,
+        j1_0.salary_min,
+        j1_0.salary_period,
+        j1_0.status,
+        j1_0.title,
+        j1_0.updated_at,
+        j1_0.updated_by,
+        j1_0.urgent,
+        j1_0.work_type,
+        c1_0.locations,
+        c1_0.logo,
+        c1_0.name,
+        c1_0.rating,
+        c1_0.size,
+        c1_0.updated_at,
+        c1_0.updated_by,
+        c1_0.website 
+    from
+        companies c1_0 
+    join
+        jobs j1_0 
+            on c1_0.id=j1_0.company_id 
+    where
+        j1_0.status=?"}{"timestamp":"2026-06-01 14:58:28","level":"DEBUG","logger":"org.hibernate.SQL","message":"
+    select
+        distinct c1_0.id,
+        c1_0.created_at,
+        c1_0.created_by,
+        c1_0.description,
+        c1_0.employees,
+        c1_0.founded,
+        c1_0.industry,
+        j1_0.company_id,
+        j1_0.id,
+        j1_0.application_deadline,
+        j1_0.applications_count,
+        j1_0.benefits,
+        j1_0.category,
+        j1_0.created_at,
+        j1_0.created_by,
+        j1_0.description,
+        j1_0.experience_level,
+        j1_0.featured,
+        j1_0.job_type,
+        j1_0.location,
+        j1_0.posted_date,
+        j1_0.remote,
+        j1_0.requirements,
+        j1_0.salary_currency,
+        j1_0.salary_max,
+        j1_0.salary_min,
+        j1_0.salary_period,
+        j1_0.status,
+        j1_0.title,
+        j1_0.updated_at,
+        j1_0.updated_by,
+        j1_0.urgent,
+        j1_0.work_type,
+        c1_0.locations,
+        c1_0.logo,
+        c1_0.name,
+        c1_0.rating,
+        c1_0.size,
+        c1_0.updated_at,
+        c1_0.updated_by,
+        c1_0.website 
+    from
+        companies c1_0 
+    join
+        jobs j1_0 
+            on c1_0.id=j1_0.company_id 
+    where
+        j1_0.status=?"}{"timestamp":"2026-06-01 14:58:29","level":"DEBUG","logger":"org.springframework.security.web.FilterChainProxy","message":"Securing GET /api/companies/public"}{"timestamp":"2026-06-01 14:58:29","level":"DEBUG","logger":"org.springframework.security.web.FilterChainProxy","message":"Secured GET /api/companies/public"}{"timestamp":"2026-06-01 14:58:29","level":"DEBUG","logger":"org.hibernate.SQL","message":"
+    select
+        distinct c1_0.id,
+        c1_0.created_at,
+        c1_0.created_by,
+        c1_0.description,
+        c1_0.employees,
+        c1_0.founded,
+        c1_0.industry,
+        j1_0.company_id,
+        j1_0.id,
+        j1_0.application_deadline,
+        j1_0.applications_count,
+        j1_0.benefits,
+        j1_0.category,
+        j1_0.created_at,
+        j1_0.created_by,
+        j1_0.description,
+        j1_0.experience_level,
+        j1_0.featured,
+        j1_0.job_type,
+        j1_0.location,
+        j1_0.posted_date,
+        j1_0.remote,
+        j1_0.requirements,
+        j1_0.salary_currency,
+        j1_0.salary_max,
+        j1_0.salary_min,
+        j1_0.salary_period,
+        j1_0.status,
+        j1_0.title,
+        j1_0.updated_at,
+        j1_0.updated_by,
+        j1_0.urgent,
+        j1_0.work_type,
+        c1_0.locations,
+        c1_0.logo,
+        c1_0.name,
+        c1_0.rating,
+        c1_0.size,
+        c1_0.updated_at,
+        c1_0.updated_by,
+        c1_0.website 
+    from
+        companies c1_0 
+    join
+        jobs j1_0 
+            on c1_0.id=j1_0.company_id 
+    where
+        j1_0.status=?"}{"timestamp":"2026-06-01 14:58:29","level":"DEBUG","logger":"org.springframework.security.web.authentication.AnonymousAuthenticationFilter","message":"Set SecurityContextHolder to anonymous SecurityContext"}{"timestamp":"2026-06-01 14:58:29","level":"DEBUG","logger":"org.springframework.security.web.authentication.AnonymousAuthenticationFilter","message":"Set SecurityContextHolder to anonymous SecurityContext"}{"timestamp":"2026-06-01 14:58:29","level":"DEBUG","logger":"org.springframework.security.web.authentication.AnonymousAuthenticationFilter","message":"Set SecurityContextHolder to anonymous SecurityContext"}{"timestamp":"2026-06-01 14:58:30","level":"WARN","logger":"com.zaxxer.hikari.pool.HikariPool","message":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m51s704ms61µs900ns)."}{"timestamp":"2026-06-01 14:58:40","level":"DEBUG","logger":"org.springframework.security.web.FilterChainProxy","message":"Securing OPTIONS /api/auth/login/public"}{"timestamp":"2026-06-01 14:58:40","level":"DEBUG","logger":"org.springframework.security.web.FilterChainProxy","message":"Securing POST /api/auth/login/public"}{"timestamp":"2026-06-01 14:58:40","level":"DEBUG","logger":"org.springframework.security.web.FilterChainProxy","message":"Secured POST /api/auth/login/public"}{"timestamp":"2026-06-01 14:58:41","level":"DEBUG","logger":"org.hibernate.SQL","message":"
+    select
+        jpu1_0.id,
+        jpu1_0.company_id,
+        jpu1_0.created_at,
+        jpu1_0.created_by,
+        jpu1_0.email,
+        jpu1_0.mobile_number,
+        jpu1_0.name,
+        jpu1_0.password_hash,
+        jpu1_0.role_id,
+        jpu1_0.updated_at,
+        jpu1_0.updated_by 
+    from
+        users jpu1_0 
+    where
+        jpu1_0.email=?"}{"timestamp":"2026-06-01 14:58:41","level":"DEBUG","logger":"org.hibernate.SQL","message":"
+    select
+        r1_0.id,
+        r1_0.created_at,
+        r1_0.created_by,
+        r1_0.name,
+        r1_0.updated_at,
+        r1_0.updated_by 
+    from
+        roles r1_0 
+    where
+        r1_0.id=?"}{"timestamp":"2026-06-01 14:58:41","level":"DEBUG","logger":"org.springframework.security.web.authentication.AnonymousAuthenticationFilter","message":"Set SecurityContextHolder to anonymous SecurityContext"}{"timestamp":"2026-06-01 15:00:24","level":"DEBUG","logger":"org.springframework.security.web.FilterChainProxy","message":"Securing OPTIONS /api/contacts/page/admin?pageNumber=0&pageSize=10&sortBy=createdAt&sortDir=asc"}{"timestamp":"2026-06-01 15:00:24","level":"DEBUG","logger":"org.springframework.security.web.FilterChainProxy","message":"Securing OPTIONS /api/contacts/page/admin?pageNumber=0&pageSize=10&sortBy=createdAt&sortDir=asc"}{"timestamp":"2026-06-01 15:00:24","level":"DEBUG","logger":"org.springframework.security.web.FilterChainProxy","message":"Securing GET /api/contacts/page/admin?pageNumber=0&pageSize=10&sortBy=createdAt&sortDir=asc"}{"timestamp":"2026-06-01 15:00:24","level":"DEBUG","logger":"org.springframework.security.web.authentication.AnonymousAuthenticationFilter","message":"Set SecurityContextHolder to anonymous SecurityContext"}{"timestamp":"2026-06-01 15:00:24","level":"DEBUG","logger":"org.springframework.security.web.savedrequest.HttpSessionRequestCache","message":"Saved request http://localhost:8080/api/contacts/page/admin?pageNumber=0&pageSize=10&sortBy=createdAt&sortDir=asc&continue to session"}{"timestamp":"2026-06-01 15:00:24","level":"DEBUG","logger":"org.springframework.security.web.authentication.Http403ForbiddenEntryPoint","message":"Pre-authenticated entry point called. Rejecting access"}{"timestamp":"2026-06-01 15:00:24","level":"DEBUG","logger":"org.springframework.security.web.FilterChainProxy","message":"Securing GET /error?pageNumber=0&pageSize=10&sortBy=createdAt&sortDir=asc"}{"timestamp":"2026-06-01 15:00:24","level":"DEBUG","logger":"org.springframework.security.web.authentication.AnonymousAuthenticationFilter","message":"Set SecurityContextHolder to anonymous SecurityContext"}{"timestamp":"2026-06-01 15:00:24","level":"DEBUG","logger":"org.springframework.security.web.savedrequest.HttpSessionRequestCache","message":"Saved request http://localhost:8080/error?pageNumber=0&pageSize=10&sortBy=createdAt&sortDir=asc&continue to session"}{"timestamp":"2026-06-01 15:00:24","level":"DEBUG","logger":"org.springframework.security.web.authentication.Http403ForbiddenEntryPoint","message":"Pre-authenticated entry point called. Rejecting access"}{"timestamp":"2026-06-01 15:00:24","level":"DEBUG","logger":"org.springframework.security.web.FilterChainProxy","message":"Securing GET /api/contacts/page/admin?pageNumber=0&pageSize=10&sortBy=createdAt&sortDir=asc"}{"timestamp":"2026-06-01 15:00:24","level":"DEBUG","logger":"org.springframework.security.web.authentication.AnonymousAuthenticationFilter","message":"Set SecurityContextHolder to anonymous SecurityContext"}{"timestamp":"2026-06-01 15:00:24","level":"DEBUG","logger":"org.springframework.security.web.savedrequest.HttpSessionRequestCache","message":"Saved request http://localhost:8080/api/contacts/page/admin?pageNumber=0&pageSize=10&sortBy=createdAt&sortDir=asc&continue to session"}{"timestamp":"2026-06-01 15:00:24","level":"DEBUG","logger":"org.springframework.security.web.authentication.Http403ForbiddenEntryPoint","message":"Pre-authenticated entry point called. Rejecting access"}{"timestamp":"2026-06-01 15:00:24","level":"DEBUG","logger":"org.springframework.security.web.FilterChainProxy","message":"Securing GET /error?pageNumber=0&pageSize=10&sortBy=createdAt&sortDir=asc"}{"timestamp":"2026-06-01 15:00:24","level":"DEBUG","logger":"org.springframework.security.web.authentication.AnonymousAuthenticationFilter","message":"Set SecurityContextHolder to anonymous SecurityContext"}{"timestamp":"2026-06-01 15:00:24","level":"DEBUG","logger":"org.springframework.security.web.savedrequest.HttpSessionRequestCache","message":"Saved request http://localhost:8080/error?pageNumber=0&pageSize=10&sortBy=createdAt&sortDir=asc&continue to session"}{"timestamp":"2026-06-01 15:00:24","level":"DEBUG","logger":"org.springframework.security.web.authentication.Http403ForbiddenEntryPoint","message":"Pre-authenticated entry point called. Rejecting access"}{"timestamp":"2026-06-01 15:03:29","level":"DEBUG","logger":"org.springframework.security.web.FilterChainProxy","message":"Securing GET /api/companies/public"}{"timestamp":"2026-06-01 15:03:29","level":"DEBUG","logger":"org.springframework.security.web.FilterChainProxy","message":"Secured GET /api/companies/public"}{"timestamp":"2026-06-01 15:03:29","level":"DEBUG","logger":"org.hibernate.SQL","message":"
+    select
+        distinct c1_0.id,
+        c1_0.created_at,
+        c1_0.created_by,
+        c1_0.description,
+        c1_0.employees,
+        c1_0.founded,
+        c1_0.industry,
+        j1_0.company_id,
+        j1_0.id,
+        j1_0.application_deadline,
+        j1_0.applications_count,
+        j1_0.benefits,
+        j1_0.category,
+        j1_0.created_at,
+        j1_0.created_by,
+        j1_0.description,
+        j1_0.experience_level,
+        j1_0.featured,
+        j1_0.job_type,
+        j1_0.location,
+        j1_0.posted_date,
+        j1_0.remote,
+        j1_0.requirements,
+        j1_0.salary_currency,
+        j1_0.salary_max,
+        j1_0.salary_min,
+        j1_0.salary_period,
+        j1_0.status,
+        j1_0.title,
+        j1_0.updated_at,
+        j1_0.updated_by,
+        j1_0.urgent,
+        j1_0.work_type,
+        c1_0.locations,
+        c1_0.logo,
+        c1_0.name,
+        c1_0.rating,
+        c1_0.size,
+        c1_0.updated_at,
+        c1_0.updated_by,
+        c1_0.website 
+    from
+        companies c1_0 
+    join
+        jobs j1_0 
+            on c1_0.id=j1_0.company_id 
+    where
+        j1_0.status=?"}{"timestamp":"2026-06-01 15:03:29","level":"DEBUG","logger":"org.springframework.security.web.FilterChainProxy","message":"Securing GET /api/companies/public"}{"timestamp":"2026-06-01 15:03:29","level":"DEBUG","logger":"org.springframework.security.web.FilterChainProxy","message":"Secured GET /api/companies/public"}{"timestamp":"2026-06-01 15:03:29","level":"DEBUG","logger":"org.hibernate.SQL","message":"
+    select
+        distinct c1_0.id,
+        c1_0.created_at,
+        c1_0.created_by,
+        c1_0.description,
+        c1_0.employees,
+        c1_0.founded,
+        c1_0.industry,
+        j1_0.company_id,
+        j1_0.id,
+        j1_0.application_deadline,
+        j1_0.applications_count,
+        j1_0.benefits,
+        j1_0.category,
+        j1_0.created_at,
+        j1_0.created_by,
+        j1_0.description,
+        j1_0.experience_level,
+        j1_0.featured,
+        j1_0.job_type,
+        j1_0.location,
+        j1_0.posted_date,
+        j1_0.remote,
+        j1_0.requirements,
+        j1_0.salary_currency,
+        j1_0.salary_max,
+        j1_0.salary_min,
+        j1_0.salary_period,
+        j1_0.status,
+        j1_0.title,
+        j1_0.updated_at,
+        j1_0.updated_by,
+        j1_0.urgent,
+        j1_0.work_type,
+        c1_0.locations,
+        c1_0.logo,
+        c1_0.name,
+        c1_0.rating,
+        c1_0.size,
+        c1_0.updated_at,
+        c1_0.updated_by,
+        c1_0.website 
+    from
+        companies c1_0 
+    join
+        jobs j1_0 
+            on c1_0.id=j1_0.company_id 
+    where
+        j1_0.status=?"}{"timestamp":"2026-06-01 15:03:29","level":"DEBUG","logger":"org.springframework.security.web.authentication.AnonymousAuthenticationFilter","message":"Set SecurityContextHolder to anonymous SecurityContext"}{"timestamp":"2026-06-01 15:03:29","level":"DEBUG","logger":"org.springframework.security.web.authentication.AnonymousAuthenticationFilter","message":"Set SecurityContextHolder to anonymous SecurityContext"}{"timestamp":"2026-06-01 17:31:05","level":"DEBUG","logger":"org.springframework.security.web.FilterChainProxy","message":"Securing GET /api/companies/public"}{"timestamp":"2026-06-01 17:31:05","level":"DEBUG","logger":"org.springframework.security.web.FilterChainProxy","message":"Secured GET /api/companies/public"}{"timestamp":"2026-06-01 17:31:05","level":"DEBUG","logger":"org.hibernate.SQL","message":"
+    select
+        distinct c1_0.id,
+        c1_0.created_at,
+        c1_0.created_by,
+        c1_0.description,
+        c1_0.employees,
+        c1_0.founded,
+        c1_0.industry,
+        j1_0.company_id,
+        j1_0.id,
+        j1_0.application_deadline,
+        j1_0.applications_count,
+        j1_0.benefits,
+        j1_0.category,
+        j1_0.created_at,
+        j1_0.created_by,
+        j1_0.description,
+        j1_0.experience_level,
+        j1_0.featured,
+        j1_0.job_type,
+        j1_0.location,
+        j1_0.posted_date,
+        j1_0.remote,
+        j1_0.requirements,
+        j1_0.salary_currency,
+        j1_0.salary_max,
+        j1_0.salary_min,
+        j1_0.salary_period,
+        j1_0.status,
+        j1_0.title,
+        j1_0.updated_at,
+        j1_0.updated_by,
+        j1_0.urgent,
+        j1_0.work_type,
+        c1_0.locations,
+        c1_0.logo,
+        c1_0.name,
+        c1_0.rating,
+        c1_0.size,
+        c1_0.updated_at,
+        c1_0.updated_by,
+        c1_0.website 
+    from
+        companies c1_0 
+    join
+        jobs j1_0 
+            on c1_0.id=j1_0.company_id 
+    where
+        j1_0.status=?"}{"timestamp":"2026-06-01 17:31:06","level":"DEBUG","logger":"org.springframework.security.web.authentication.AnonymousAuthenticationFilter","message":"Set SecurityContextHolder to anonymous SecurityContext"}{"timestamp":"2026-06-01 17:31:06","level":"DEBUG","logger":"org.springframework.security.web.FilterChainProxy","message":"Securing GET /api/companies/public"}{"timestamp":"2026-06-01 17:31:06","level":"DEBUG","logger":"org.springframework.security.web.FilterChainProxy","message":"Secured GET /api/companies/public"}{"timestamp":"2026-06-01 17:31:06","level":"DEBUG","logger":"org.hibernate.SQL","message":"
+    select
+        distinct c1_0.id,
+        c1_0.created_at,
+        c1_0.created_by,
+        c1_0.description,
+        c1_0.employees,
+        c1_0.founded,
+        c1_0.industry,
+        j1_0.company_id,
+        j1_0.id,
+        j1_0.application_deadline,
+        j1_0.applications_count,
+        j1_0.benefits,
+        j1_0.category,
+        j1_0.created_at,
+        j1_0.created_by,
+        j1_0.description,
+        j1_0.experience_level,
+        j1_0.featured,
+        j1_0.job_type,
+        j1_0.location,
+        j1_0.posted_date,
+        j1_0.remote,
+        j1_0.requirements,
+        j1_0.salary_currency,
+        j1_0.salary_max,
+        j1_0.salary_min,
+        j1_0.salary_period,
+        j1_0.status,
+        j1_0.title,
+        j1_0.updated_at,
+        j1_0.updated_by,
+        j1_0.urgent,
+        j1_0.work_type,
+        c1_0.locations,
+        c1_0.logo,
+        c1_0.name,
+        c1_0.rating,
+        c1_0.size,
+        c1_0.updated_at,
+        c1_0.updated_by,
+        c1_0.website 
+    from
+        companies c1_0 
+    join
+        jobs j1_0 
+            on c1_0.id=j1_0.company_id 
+    where
+        j1_0.status=?"}{"timestamp":"2026-06-01 17:31:06","level":"DEBUG","logger":"org.springframework.security.web.authentication.AnonymousAuthenticationFilter","message":"Set SecurityContextHolder to anonymous SecurityContext"}{"timestamp":"2026-06-01 17:31:07","level":"DEBUG","logger":"org.springframework.security.web.FilterChainProxy","message":"Securing GET /api/companies/public"}{"timestamp":"2026-06-01 17:31:07","level":"DEBUG","logger":"org.springframework.security.web.FilterChainProxy","message":"Secured GET /api/companies/public"}{"timestamp":"2026-06-01 17:31:07","level":"DEBUG","logger":"org.hibernate.SQL","message":"
+    select
+        distinct c1_0.id,
+        c1_0.created_at,
+        c1_0.created_by,
+        c1_0.description,
+        c1_0.employees,
+        c1_0.founded,
+        c1_0.industry,
+        j1_0.company_id,
+        j1_0.id,
+        j1_0.application_deadline,
+        j1_0.applications_count,
+        j1_0.benefits,
+        j1_0.category,
+        j1_0.created_at,
+        j1_0.created_by,
+        j1_0.description,
+        j1_0.experience_level,
+        j1_0.featured,
+        j1_0.job_type,
+        j1_0.location,
+        j1_0.posted_date,
+        j1_0.remote,
+        j1_0.requirements,
+        j1_0.salary_currency,
+        j1_0.salary_max,
+        j1_0.salary_min,
+        j1_0.salary_period,
+        j1_0.status,
+        j1_0.title,
+        j1_0.updated_at,
+        j1_0.updated_by,
+        j1_0.urgent,
+        j1_0.work_type,
+        c1_0.locations,
+        c1_0.logo,
+        c1_0.name,
+        c1_0.rating,
+        c1_0.size,
+        c1_0.updated_at,
+        c1_0.updated_by,
+        c1_0.website 
+    from
+        companies c1_0 
+    join
+        jobs j1_0 
+            on c1_0.id=j1_0.company_id 
+    where
+        j1_0.status=?"}{"timestamp":"2026-06-01 17:31:07","level":"DEBUG","logger":"org.springframework.security.web.FilterChainProxy","message":"Securing GET /api/companies/public"}{"timestamp":"2026-06-01 17:31:07","level":"DEBUG","logger":"org.springframework.security.web.FilterChainProxy","message":"Secured GET /api/companies/public"}{"timestamp":"2026-06-01 17:31:07","level":"DEBUG","logger":"org.hibernate.SQL","message":"
+    select
+        distinct c1_0.id,
+        c1_0.created_at,
+        c1_0.created_by,
+        c1_0.description,
+        c1_0.employees,
+        c1_0.founded,
+        c1_0.industry,
+        j1_0.company_id,
+        j1_0.id,
+        j1_0.application_deadline,
+        j1_0.applications_count,
+        j1_0.benefits,
+        j1_0.category,
+        j1_0.created_at,
+        j1_0.created_by,
+        j1_0.description,
+        j1_0.experience_level,
+        j1_0.featured,
+        j1_0.job_type,
+        j1_0.location,
+        j1_0.posted_date,
+        j1_0.remote,
+        j1_0.requirements,
+        j1_0.salary_currency,
+        j1_0.salary_max,
+        j1_0.salary_min,
+        j1_0.salary_period,
+        j1_0.status,
+        j1_0.title,
+        j1_0.updated_at,
+        j1_0.updated_by,
+        j1_0.urgent,
+        j1_0.work_type,
+        c1_0.locations,
+        c1_0.logo,
+        c1_0.name,
+        c1_0.rating,
+        c1_0.size,
+        c1_0.updated_at,
+        c1_0.updated_by,
+        c1_0.website 
+    from
+        companies c1_0 
+    join
+        jobs j1_0 
+            on c1_0.id=j1_0.company_id 
+    where
+        j1_0.status=?"}{"timestamp":"2026-06-01 17:31:07","level":"DEBUG","logger":"org.springframework.security.web.authentication.AnonymousAuthenticationFilter","message":"Set SecurityContextHolder to anonymous SecurityContext"}{"timestamp":"2026-06-01 17:31:07","level":"DEBUG","logger":"org.springframework.security.web.authentication.AnonymousAuthenticationFilter","message":"Set SecurityContextHolder to anonymous SecurityContext"}{"timestamp":"2026-06-01 17:31:12","level":"WARN","logger":"com.zaxxer.hikari.pool.HikariPool","message":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h25m42s194ms367µs600ns)."}{"timestamp":"2026-06-01 17:41:57","level":"DEBUG","logger":"org.springframework.security.web.FilterChainProxy","message":"Securing GET /api/companies/public"}{"timestamp":"2026-06-01 17:41:57","level":"DEBUG","logger":"org.springframework.security.web.FilterChainProxy","message":"Secured GET /api/companies/public"}{"timestamp":"2026-06-01 17:41:57","level":"DEBUG","logger":"org.hibernate.SQL","message":"
+    select
+        distinct c1_0.id,
+        c1_0.created_at,
+        c1_0.created_by,
+        c1_0.description,
+        c1_0.employees,
+        c1_0.founded,
+        c1_0.industry,
+        j1_0.company_id,
+        j1_0.id,
+        j1_0.application_deadline,
+        j1_0.applications_count,
+        j1_0.benefits,
+        j1_0.category,
+        j1_0.created_at,
+        j1_0.created_by,
+        j1_0.description,
+        j1_0.experience_level,
+        j1_0.featured,
+        j1_0.job_type,
+        j1_0.location,
+        j1_0.posted_date,
+        j1_0.remote,
+        j1_0.requirements,
+        j1_0.salary_currency,
+        j1_0.salary_max,
+        j1_0.salary_min,
+        j1_0.salary_period,
+        j1_0.status,
+        j1_0.title,
+        j1_0.updated_at,
+        j1_0.updated_by,
+        j1_0.urgent,
+        j1_0.work_type,
+        c1_0.locations,
+        c1_0.logo,
+        c1_0.name,
+        c1_0.rating,
+        c1_0.size,
+        c1_0.updated_at,
+        c1_0.updated_by,
+        c1_0.website 
+    from
+        companies c1_0 
+    join
+        jobs j1_0 
+            on c1_0.id=j1_0.company_id 
+    where
+        j1_0.status=?"}{"timestamp":"2026-06-01 17:41:57","level":"DEBUG","logger":"org.springframework.security.web.FilterChainProxy","message":"Securing GET /api/companies/public"}{"timestamp":"2026-06-01 17:41:57","level":"DEBUG","logger":"org.springframework.security.web.FilterChainProxy","message":"Secured GET /api/companies/public"}{"timestamp":"2026-06-01 17:41:57","level":"DEBUG","logger":"org.hibernate.SQL","message":"
+    select
+        distinct c1_0.id,
+        c1_0.created_at,
+        c1_0.created_by,
+        c1_0.description,
+        c1_0.employees,
+        c1_0.founded,
+        c1_0.industry,
+        j1_0.company_id,
+        j1_0.id,
+        j1_0.application_deadline,
+        j1_0.applications_count,
+        j1_0.benefits,
+        j1_0.category,
+        j1_0.created_at,
+        j1_0.created_by,
+        j1_0.description,
+        j1_0.experience_level,
+        j1_0.featured,
+        j1_0.job_type,
+        j1_0.location,
+        j1_0.posted_date,
+        j1_0.remote,
+        j1_0.requirements,
+        j1_0.salary_currency,
+        j1_0.salary_max,
+        j1_0.salary_min,
+        j1_0.salary_period,
+        j1_0.status,
+        j1_0.title,
+        j1_0.updated_at,
+        j1_0.updated_by,
+        j1_0.urgent,
+        j1_0.work_type,
+        c1_0.locations,
+        c1_0.logo,
+        c1_0.name,
+        c1_0.rating,
+        c1_0.size,
+        c1_0.updated_at,
+        c1_0.updated_by,
+        c1_0.website 
+    from
+        companies c1_0 
+    join
+        jobs j1_0 
+            on c1_0.id=j1_0.company_id 
+    where
+        j1_0.status=?"}{"timestamp":"2026-06-01 17:41:57","level":"DEBUG","logger":"org.springframework.security.web.authentication.AnonymousAuthenticationFilter","message":"Set SecurityContextHolder to anonymous SecurityContext"}{"timestamp":"2026-06-01 17:41:57","level":"DEBUG","logger":"org.springframework.security.web.authentication.AnonymousAuthenticationFilter","message":"Set SecurityContextHolder to anonymous SecurityContext"}{"timestamp":"2026-06-01 20:13:59","level":"WARN","logger":"com.zaxxer.hikari.pool.HikariPool","message":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h22m46s396ms151µs500ns)."}
